@@ -38,6 +38,27 @@
 
 [View detailed comparison →](docs/AI_SYSTEMS.md)
 
+## 🚀 Quick Start
+
+### Try Live Demo
+Visit **[app-5c655e46.base44.app](https://app-5c655e46.base44.app/)**
+
+### First Time Setup
+1. Open the Compass
+2. Click "إضافة نظام جديد" (Add New System)
+3. Select an AI you use regularly
+4. Complete the initial assessment
+5. Review your sovereignty score
+
+### Understanding Your Score
+- **90-100%**: Excellent sovereignty 🏆
+- **76-89%**: Strong control ⭐
+- **51-75%**: Good awareness ✅
+- **26-50%**: Needs attention ⚠️
+- **0-25%**: High dependency risk 🔴
+
+  ---
+  
 ### Key Features
 
 - 🎯 **Instant Sovereignty Score**: Real-time calculation (0-100%)
@@ -312,6 +333,19 @@ Optimized for all devices:
 - 💻 Desktop enhancements
 - 🖥️ Tablet support
 - 🌐 Cross-browser compatible
+- 
+
+---
+## 📸 Screenshots
+
+### Main Dashboard
+![Dashboard](screenshots/main-dashboard.png)
+
+### AI System Cards
+![GPT-4 Card](screenshots/ai-card-gpt4.png)
+
+### Gap Analysis
+![Gap Analysis](screenshots/gap-analysis-pie.png)
 
 ---
 
@@ -343,18 +377,17 @@ Optimized for all devices:
 
 ---
 
-## 📚 Comparison: Compass vs Dashboard
+## 🆚 Compass vs Dashboard
 
-| Feature | Cognitive Compass | ECF Dashboard |
-|---------|-------------------|---------------|
-| **Purpose** | Instant assessment | Long-term monitoring |
-| **Frequency** | Per interaction | Continuous |
-| **Detail Level** | Deep dive | Overview |
-| **Time Range** | Current state | Historical trends |
-| **Gap Analysis** | 3 types detailed | Aggregate average |
-| **Interactions** | Individual tracking | System-level |
-| **Use When** | Need quick insight | Want trend analysis |
+| Feature | ECF Compass | ECF Dashboard |
+|---------|-------------|---------------|
+| **Purpose** | Per-AI assessment | Aggregate monitoring |
+| **Systems** | 10 individual AIs | System-agnostic |
+| **Detail** | Deep per-AI analysis | Overall trends |
+| **Gap Types** | 3 types × 10 AIs | Average gaps |
+| **Best For** | Choosing which AI to use | Long-term improvement tracking |
 
+💡 **Use both together** for complete sovereignty management!
 ---
 
 ## 🤝 Contributing
