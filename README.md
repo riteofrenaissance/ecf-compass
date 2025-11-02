@@ -360,7 +360,7 @@ This project is part of the Evolutionary Core Framework and is licensed under th
 ## 🔗 Links
 
 - **Live Demo**: [app-5c655e46.base44.app](https://app-5c655e46.base44.app/)
-- **Main Repository**: [github.com/riteofrene](https://github.com/riteofrenaissance)
+- **Main Repository**: [github.com/riteofrenaissance](https://github.com/riteofrenaissance)
 - **Theory**: [ecf-theory](https://github.com/riteofrenaissance/ecf-theory)
 - **Dashboard**: [ecf-dashboard](https://github.com/riteofrenaissance/ecf-dashboard)
 - **Research**: [ecf-study-aperture](https://github.com/riteofrenaissance/ecf-study-aperture)
