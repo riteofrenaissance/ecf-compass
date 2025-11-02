@@ -18,6 +18,26 @@
 
 **Cognitive Compass** (البوصلة المعرفية) is an interactive assessment tool that provides instant analysis of cognitive sovereignty in human-AI interactions. Unlike long-term monitoring dashboards, the Compass focuses on immediate, detailed evaluation of individual interactions.
 
+## 🤖 Tracked AI Systems (10)
+
+### Text Generation (4)
+- **Claude 3** (Anthropic) - 85% sovereignty ⭐
+- **GPT-4** (OpenAI) - 75% sovereignty
+- **Gemini Pro** (Google) - 65% sovereignty
+- **Jasper AI** - 55% sovereignty
+
+### Image Generation (3)
+- **Stable Diffusion** - 70% sovereignty
+- **DALL-E 3** (OpenAI) - 60% sovereignty
+- **Midjourney** - 45% sovereignty ⚠️
+
+### Specialized Tools (3)
+- **DeepL Translator** - 90% sovereignty 🏆
+- **IBM Watson** - 80% sovereignty
+- **GitHub Copilot** - 50% sovereignty
+
+[View detailed comparison →](docs/AI_SYSTEMS.md)
+
 ### Key Features
 
 - 🎯 **Instant Sovereignty Score**: Real-time calculation (0-100%)
