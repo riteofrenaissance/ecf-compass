@@ -557,7 +557,7 @@ ecf-dashboard (المراقبة)
 ## 🔗 الروابط
 
 - **التجربة المباشرة**: [app-5c655e46.base44.app](https://app-5c655e46.base44.app/)
-- **GitHub**: [github.com/riteofrene](https://github.com/riteofrenaissance)
+- **GitHub**: [github.com/riteofrenaissance](https://github.com/riteofrenaissance)
 - **النظرية**: [ecf-theory](https://github.com/riteofrenaissance/ecf-theory)
 - **لوحة التحكم**: [ecf-dashboard](https://github.com/riteofrenaissance/ecf-dashboard)
 
