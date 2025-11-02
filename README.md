@@ -5,8 +5,8 @@
 **Interactive Assessment Tool for Cognitive Sovereignty in AI Interactions**
 
 [![Live Demo](https://img.shields.io/badge/demo-live-brightgreen)](https://app-5c655e46.base44.app/)
-[![Part of ECF](https://img.shields.io/badge/part%20of-ECF-purple)](https://github.com/riteofrene)
-[![Status](https://img.shields.io/badge/status-active-success)](https://github.com/riteofrene/ecf-compass)
+[![Part of ECF](https://img.shields.io/badge/part%20of-ECF-purple)](https://github.com/riteofrenaissance)
+[![Status](https://img.shields.io/badge/status-active-success)](https://github.com/riteofrenaissance/ecf-compass)
 
 [العربية](#-النسخة-العربية) • [English](#-overview) • [Live Demo](https://app-5c655e46.base44.app/)
 
@@ -48,10 +48,10 @@ Continuous Improvement
 ```
 
 ### Related Projects
-- **[ecf-theory](https://github.com/riteofrene/ecf-theory)** - Theoretical framework
-- **[ecf-dashboard](https://github.com/riteofrene/ecf-dashboard)** - Long-term monitoring
-- **[ecf-study-aperture](https://github.com/riteofrene/ecf-study-aperture)** - RCT research
-- **[ecf-study-interactions](https://github.com/riteofrene/ecf-study-interactions)** - Pattern analysis
+- **[ecf-theory](https://github.com/riteofrenaissance/ecf-theory)** - Theoretical framework
+- **[ecf-dashboard](https://github.com/riteofrenaissance/ecf-dashboard)** - Long-term monitoring
+- **[ecf-study-aperture](https://github.com/riteofrenaissance/ecf-study-aperture)** - RCT research
+- **[ecf-study-interactions](https://github.com/riteofrenaissance/ecf-study-interactions)** - Pattern analysis
 
 ---
 
@@ -360,18 +360,18 @@ This project is part of the Evolutionary Core Framework and is licensed under th
 ## 🔗 Links
 
 - **Live Demo**: [app-5c655e46.base44.app](https://app-5c655e46.base44.app/)
-- **Main Repository**: [github.com/riteofrene](https://github.com/riteofrene)
-- **Theory**: [ecf-theory](https://github.com/riteofrene/ecf-theory)
-- **Dashboard**: [ecf-dashboard](https://github.com/riteofrene/ecf-dashboard)
-- **Research**: [ecf-study-aperture](https://github.com/riteofrene/ecf-study-aperture)
+- **Main Repository**: [github.com/riteofrene](https://github.com/riteofrenaissance)
+- **Theory**: [ecf-theory](https://github.com/riteofrenaissance/ecf-theory)
+- **Dashboard**: [ecf-dashboard](https://github.com/riteofrenaissance/ecf-dashboard)
+- **Research**: [ecf-study-aperture](https://github.com/riteofrenaissance/ecf-study-aperture)
 
 ---
 
 ## 📬 Support
 
-- **Issues**: [Report a bug](https://github.com/riteofrene/ecf-compass/issues)
-- **Discussions**: [Join conversation](https://github.com/riteofrene/ecf-compass/discussions)
-- **Community**: [GitHub](https://github.com/riteofrene)
+- **Issues**: [Report a bug](https://github.com/riteofrenaissance/ecf-compass/issues)
+- **Discussions**: [Join conversation](https://github.com/riteofrenaissance/ecf-compass/discussions)
+- **Community**: [GitHub](https://github.com/riteofrenaissance)
 
 ---
 
@@ -396,8 +396,8 @@ This project is part of the Evolutionary Core Framework and is licensed under th
 **Built with 🧭 to guide cognitive sovereignty**
 
 [Try Live Demo](https://app-5c655e46.base44.app/) • 
-[View on GitHub](https://github.com/riteofrene) • 
-[Read Theory](https://github.com/riteofrene/ecf-theory)
+[View on GitHub](https://github.com/riteofrenaissance) • 
+[Read Theory](https://github.com/riteofrenaissance/ecf-theory)
 
 </div>
 
@@ -557,9 +557,9 @@ ecf-dashboard (المراقبة)
 ## 🔗 الروابط
 
 - **التجربة المباشرة**: [app-5c655e46.base44.app](https://app-5c655e46.base44.app/)
-- **GitHub**: [github.com/riteofrene](https://github.com/riteofrene)
-- **النظرية**: [ecf-theory](https://github.com/riteofrene/ecf-theory)
-- **لوحة التحكم**: [ecf-dashboard](https://github.com/riteofrene/ecf-dashboard)
+- **GitHub**: [github.com/riteofrene](https://github.com/riteofrenaissance)
+- **النظرية**: [ecf-theory](https://github.com/riteofrenaissance/ecf-theory)
+- **لوحة التحكم**: [ecf-dashboard](https://github.com/riteofrenaissance/ecf-dashboard)
 
 ---
 
@@ -568,8 +568,8 @@ ecf-dashboard (المراقبة)
 **صُنع بـ 🧭 لتوجيه السيادة المعرفية**
 
 [جرّب الآن](https://app-5c655e46.base44.app/) • 
-[GitHub](https://github.com/riteofrene) • 
-[اقرأ النظرية](https://github.com/riteofrene/ecf-theory)
+[GitHub](https://github.com/riteofrenaissance) • 
+[اقرأ النظرية](https://github.com/riteofrenaissance/ecf-theory)
 
 </div>
 
