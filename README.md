@@ -31,23 +31,57 @@
 
 ---
 
-## 🤖 Supported AI Systems
+## 🤖 Tracked AI Systems (10)
 
-### Text Generation
-- ✅ **GPT-4** (OpenAI) - Sovereignty: 75%
-- ✅ **Claude 3** (Anthropic) - Sovereignty: 85% ⭐
-- ✅ **Gemini Pro** (Google) - Sovereignty: 65%
-- ✅ **Jasper AI** (Jasper) - Sovereignty: 55%
+### Text Generation (4)
+- **Claude 3** (Anthropic) - 85% sovereignty ⭐
+- **GPT-4** (OpenAI) - 75% sovereignty
+- **Gemini Pro** (Google) - 65% sovereignty
+- **Jasper AI** - 55% sovereignty
 
-### Image Generation
-- 🎨 **DALL-E 3** (OpenAI) - Sovereignty: 60%
-- 🎨 **Midjourney** (Midjourney Inc) - Sovereignty: 45%
-- 🎨 **Stable Diffusion** (Stability AI) - Sovereignty: 70%
+### Image Generation (3)
+- **Stable Diffusion** - 70% sovereignty
+- **DALL-E 3** (OpenAI) - 60% sovereignty
+- **Midjourney** - 45% sovereignty ⚠️
 
-### Specialized Tools
-- 🌐 **DeepL Translator** (DeepL) - Sovereignty: 90% 🏆
-- 💻 **GitHub Copilot** (GitHub/OpenAI) - Sovereignty: 50%
-- 📊 **IBM Watson** (IBM) - Sovereignty: 80%
+### Specialized Tools (3)
+- **DeepL Translator** - 90% sovereignty 🏆
+- **IBM Watson** - 80% sovereignty
+- **GitHub Copilot** - 50% sovereignty
+
+[View detailed comparison →](docs/AI_SYSTEMS.md)
+
+
+## 🚀 Quick Start
+
+### Try Live Demo
+Visit **[app-5c655e46.base44.app](https://app-5c655e46.base44.app/)**
+
+### First Time Setup
+1. Open the Compass
+2. Click "إضافة نظام جديد" (Add New System)
+3. Select an AI you use regularly
+4. Complete the initial assessment
+5. Review your sovereignty score
+
+### Understanding Your Score
+- **90-100%**: Excellent sovereignty 🏆
+- **76-89%**: Strong control ⭐
+- **51-75%**: Good awareness ✅
+- **26-50%**: Needs attention ⚠️
+- **0-25%**: High dependency risk 🔴
+- 
+## 🆚 Compass vs Dashboard
+
+| Feature | ECF Compass | ECF Dashboard |
+|---------|-------------|---------------|
+| **Purpose** | Per-AI assessment | Aggregate monitoring |
+| **Systems** | 10 individual AIs | System-agnostic |
+| **Detail** | Deep per-AI analysis | Overall trends |
+| **Gap Types** | 3 types × 10 AIs | Average gaps |
+| **Best For** | Choosing which AI to use | Long-term improvement tracking |
+
+💡 **Use both together** for complete sovereignty management!
 
 ---
 
@@ -420,6 +454,17 @@ Publications & Findings
 - **State**: React Context API (no external storage)
 - **Deployment**: base44.app platform
 - **Language**: Primary Arabic, Secondary English
+
+## 📸 Screenshots
+
+### Main Dashboard
+![Dashboard](screenshots/main-dashboard.png)
+
+### AI System Cards
+![GPT-4 Card](screenshots/ai-card-gpt4.png)
+
+### Gap Analysis
+![Gap Analysis](screenshots/gap-analysis-pie.png)
 
 ---
 
