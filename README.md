@@ -2,15 +2,15 @@
 
 <div align="center">
 
-[![Live Demo](https://img.shields.io/badge/🚀_Live-Demo-brightgreen?style=for-the-badge)](https://app-5c655e46.base44.app/)
+[![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen?style=for-the-badge)](https://app-5c655e46.base44.app/)
 [![Part of ECF](https://img.shields.io/badge/Part_of-ECF-purple?style=for-the-badge)](https://github.com/riteofrenaissance)
-[![Systems Tracked](https://img.shields.io/badge/AI_Systems-10-blue?style=for-the-badge)](docs/AI_SYSTEMS.md)
+[![AI Systems Tracked](https://img.shields.io/badge/AI_Systems-10-blue?style=for-the-badge)](docs/AI_SYSTEMS.md)
 [![Overall Score](https://img.shields.io/badge/Sovereignty-75.9%25-green?style=for-the-badge)](#)
-
 [![Arabic UI](https://img.shields.io/badge/UI-عربي-orange?style=flat-square)](https://app-5c655e46.base44.app/)
 [![Stars](https://img.shields.io/github/stars/riteofrenaissance/ecf-compass?style=flat-square)](https://github.com/riteofrenaissance/ecf-compass/stargazers)
 [![Issues](https://img.shields.io/github/issues/riteofrenaissance/ecf-compass?style=flat-square)](https://github.com/riteofrenaissance/ecf-compass/issues)
 [![License](https://img.shields.io/badge/license-MIT-blue?style=flat-square)](LICENSE)
+
 
 </div>
 
