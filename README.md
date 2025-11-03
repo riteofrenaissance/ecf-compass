@@ -2,14 +2,15 @@
 
 <div align="center">
 
-**Interactive Multi-AI Sovereignty Assessment Tool**
+[![Live Demo](https://img.shields.io/badge/🚀_Live-Demo-brightgreen?style=for-the-badge)](https://app-5c655e46.base44.app/)
+[![Part of ECF](https://img.shields.io/badge/Part_of-ECF-purple?style=for-the-badge)](https://github.com/riteofrenaissance)
+[![Systems Tracked](https://img.shields.io/badge/AI_Systems-10-blue?style=for-the-badge)](docs/AI_SYSTEMS.md)
+[![Overall Score](https://img.shields.io/badge/Sovereignty-75.9%25-green?style=for-the-badge)](#)
 
-[![Live Demo](https://img.shields.io/badge/demo-live-brightgreen)](https://app-5c655e46.base44.app/)
-[![Part of ECF](https://img.shields.io/badge/part%20of-ECF-purple)](https://github.com/riteofrenaissance)
-[![Status](https://img.shields.io/badge/status-active-success)](https://github.com/riteofrenaissance/ecf-compass)
-[![AIs Tracked](https://img.shields.io/badge/AIs%20tracked-10+-blue)](https://app-5c655e46.base44.app/)
-
-[العربية](#-النسخة-العربية) • [English](#-overview) • [🚀 Live Demo](https://app-5c655e46.base44.app/)
+[![Arabic UI](https://img.shields.io/badge/UI-عربي-orange?style=flat-square)](https://app-5c655e46.base44.app/)
+[![Stars](https://img.shields.io/github/stars/riteofrenaissance/ecf-compass?style=flat-square)](https://github.com/riteofrenaissance/ecf-compass/stargazers)
+[![Issues](https://img.shields.io/github/issues/riteofrenaissance/ecf-compass?style=flat-square)](https://github.com/riteofrenaissance/ecf-compass/issues)
+[![License](https://img.shields.io/badge/license-MIT-blue?style=flat-square)](LICENSE)
 
 </div>
 
@@ -70,18 +71,6 @@ Visit **[app-5c655e46.base44.app](https://app-5c655e46.base44.app/)**
 - **51-75%**: Good awareness ✅
 - **26-50%**: Needs attention ⚠️
 - **0-25%**: High dependency risk 🔴
-- 
-## 🆚 Compass vs Dashboard
-
-| Feature | ECF Compass | ECF Dashboard |
-|---------|-------------|---------------|
-| **Purpose** | Per-AI assessment | Aggregate monitoring |
-| **Systems** | 10 individual AIs | System-agnostic |
-| **Detail** | Deep per-AI analysis | Overall trends |
-| **Gap Types** | 3 types × 10 AIs | Average gaps |
-| **Best For** | Choosing which AI to use | Long-term improvement tracking |
-
-💡 **Use both together** for complete sovereignty management!
 
 ---
 
@@ -516,18 +505,17 @@ Outcome: Improved digital citizenship
 
 ## 📚 Comparison Tables
 
-### Compass vs Dashboard
+## 🆚 Compass vs Dashboard
 
-| Feature | Cognitive Compass | ECF Dashboard |
-|---------|-------------------|---------------|
-| **Focus** | Per-AI detailed analysis | Aggregate overview |
-| **Frequency** | Per interaction | Continuous monitoring |
-| **Systems** | 10+ individual AIs | System-agnostic totals |
-| **Gap Detail** | 3 types × 10 AIs | Overall average |
-| **Use When** | Evaluating specific AI | Tracking long-term progress |
-| **Data Depth** | Deep per system | Broad across usage |
+| Feature | ECF Compass | ECF Dashboard |
+|---------|-------------|---------------|
+| **Purpose** | Per-AI assessment | Aggregate monitoring |
+| **Systems** | 10 individual AIs | System-agnostic |
+| **Detail** | Deep per-AI analysis | Overall trends |
+| **Gap Types** | 3 types × 10 AIs | Average gaps |
+| **Best For** | Choosing which AI to use | Long-term improvement tracking |
 
-**Recommendation:** Use both together for comprehensive sovereignty management.
+💡 **Use both together** for complete sovereignty management!
 
 ---
 
