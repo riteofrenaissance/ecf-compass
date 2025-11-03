@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>🧭 البوصلة المعرفية | Cognitive Compass</title>
+    <title>البوصلة المعرفية | Cognitive Compass</title>
     <style>
         * {
             margin: 0;
@@ -12,79 +12,74 @@
         }
         
         :root {
-            /* الألوان الحقيقية من الموقع الرسمي */
-            --primary: #3B82F6;
-            --primary-dark: #2563EB;
-            --primary-light: #DBEAFE;
-            --background: #FFFFFF;
-            --surface: #F9FAFB;
-            --card-bg: #FFFFFF;
-            --border: #E5E7EB;
-            --text-primary: #111827;
-            --text-secondary: #374151;
-            --text-muted: #6B7280;
-            --success: #10B981;
-            --warning: #F59E0B;
-            --danger: #EF4444;
-            --purple: #8B5CF6;
-            --blue: #3B82F6;
-            --green: #10B981;
-            --orange: #F59E0B;
-            --red: #EF4444;
+            --bg-dark: #0A2540;
+            --bg-medium: #1E3A5F;
+            --bg-light: #2D4A7A;
+            --card-bg: #1A2E4F;
+            --card-border: #2A4365;
+            --text-primary: #FFFFFF;
+            --text-secondary: #CBD5E0;
+            --text-muted: #718096;
+            --accent-blue: #3182CE;
+            --accent-purple: #805AD5;
+            --success: #38A169;
+            --warning: #D69E2E;
+            --danger: #E53E3E;
         }
         
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
             line-height: 1.6;
             color: var(--text-primary);
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            background: linear-gradient(135deg, var(--bg-dark) 0%, var(--bg-medium) 50%, var(--bg-light) 100%);
             min-height: 100vh;
+            padding: 20px;
         }
         
         .container {
             max-width: 1200px;
             margin: 0 auto;
-            padding: 20px;
         }
         
         .main-card {
             background: var(--card-bg);
             border-radius: 12px;
-            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
-            border: 1px solid var(--border);
+            border: 1px solid var(--card-border);
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
             overflow: hidden;
         }
         
         header {
-            background: linear-gradient(135deg, var(--primary), var(--purple));
-            color: white;
+            background: linear-gradient(135deg, var(--bg-dark) 0%, var(--bg-medium) 100%);
             padding: 40px;
             text-align: center;
+            border-bottom: 1px solid var(--card-border);
         }
         
         .header-content h1 {
             font-size: 2.5em;
             margin-bottom: 10px;
             font-weight: 700;
+            color: var(--text-primary);
         }
         
         .header-content p {
             font-size: 1.2em;
-            opacity: 0.9;
+            color: var(--text-secondary);
             margin-bottom: 30px;
         }
         
         .badges-container {
             display: flex;
             flex-wrap: wrap;
-            gap: 10px;
+            gap: 8px;
             justify-content: center;
             margin: 25px 0;
         }
         
         .badge {
             display: inline-block;
-            transition: transform 0.2s ease;
+            transition: all 0.3s ease;
         }
         
         .badge:hover {
@@ -93,7 +88,6 @@
         
         .content {
             padding: 40px;
-            background: var(--background);
         }
         
         section {
@@ -105,7 +99,7 @@
             font-size: 1.6em;
             margin-bottom: 20px;
             padding-bottom: 10px;
-            border-bottom: 2px solid var(--border);
+            border-bottom: 2px solid var(--card-border);
             font-weight: 600;
         }
         
@@ -130,16 +124,16 @@
         }
         
         .feature-card {
-            background: var(--surface);
-            border: 1px solid var(--border);
+            background: var(--bg-medium);
+            border: 1px solid var(--card-border);
             border-radius: 8px;
             padding: 24px;
             transition: all 0.3s ease;
         }
         
         .feature-card:hover {
-            border-color: var(--primary);
-            box-shadow: 0 4px 12px rgba(59, 130, 246, 0.1);
+            border-color: var(--accent-blue);
+            transform: translateY(-2px);
         }
         
         .ai-systems {
@@ -150,29 +144,23 @@
         }
         
         .system-card {
-            background: var(--surface);
-            border: 1px solid var(--border);
+            background: var(--bg-medium);
+            border: 1px solid var(--card-border);
             border-radius: 8px;
             padding: 20px;
-            transition: all 0.3s ease;
-        }
-        
-        .system-card:hover {
-            border-color: var(--primary);
-            transform: translateY(-2px);
         }
         
         .sovereignty-bar {
-            height: 8px;
-            background: var(--border);
-            border-radius: 4px;
+            height: 6px;
+            background: var(--card-border);
+            border-radius: 3px;
             margin: 12px 0;
             overflow: hidden;
         }
         
         .sovereignty-fill {
             height: 100%;
-            border-radius: 4px;
+            border-radius: 3px;
         }
         
         .stats-grid {
@@ -183,10 +171,10 @@
         }
         
         .stat-card {
-            background: linear-gradient(135deg, var(--primary), var(--purple));
-            color: white;
-            padding: 25px;
+            background: linear-gradient(135deg, var(--bg-medium), var(--accent-purple));
+            border: 1px solid var(--card-border);
             border-radius: 8px;
+            padding: 25px;
             text-align: center;
         }
         
@@ -197,7 +185,7 @@
         }
         
         .stat-label {
-            opacity: 0.9;
+            color: var(--text-secondary);
             font-size: 0.9em;
         }
         
@@ -205,32 +193,29 @@
             width: 100%;
             border-collapse: collapse;
             margin: 20px 0;
-            background: var(--surface);
+            background: var(--bg-medium);
             border-radius: 8px;
             overflow: hidden;
-            border: 1px solid var(--border);
+            border: 1px solid var(--card-border);
         }
         
         .comparison-table th,
         .comparison-table td {
             padding: 16px 20px;
             text-align: right;
-            border-bottom: 1px solid var(--border);
+            border-bottom: 1px solid var(--card-border);
+            color: var(--text-secondary);
         }
         
         .comparison-table th {
-            background: var(--primary-light);
-            color: var(--primary-dark);
+            background: var(--bg-dark);
+            color: var(--text-primary);
             font-weight: 600;
         }
         
-        .comparison-table tr:last-child td {
-            border-bottom: none;
-        }
-        
         .code-block {
-            background: var(--surface);
-            border: 1px solid var(--border);
+            background: var(--bg-medium);
+            border: 1px solid var(--card-border);
             border-radius: 8px;
             padding: 20px;
             margin: 20px 0;
@@ -239,8 +224,8 @@
         }
         
         footer {
-            background: var(--surface);
-            border-top: 1px solid var(--border);
+            background: var(--bg-dark);
+            border-top: 1px solid var(--card-border);
             padding: 30px 40px;
             text-align: center;
         }
@@ -254,14 +239,9 @@
         }
         
         .footer-link {
-            color: var(--primary);
+            color: var(--accent-blue);
             text-decoration: none;
             font-weight: 500;
-            transition: color 0.2s ease;
-        }
-        
-        .footer-link:hover {
-            color: var(--primary-dark);
         }
         
         ol, ul {
@@ -272,34 +252,19 @@
         
         li {
             margin-bottom: 8px;
-            line-height: 1.6;
         }
         
         a {
-            color: var(--primary);
+            color: var(--accent-blue);
             text-decoration: none;
         }
-        
-        a:hover {
-            text-decoration: underline;
-        }
 
-        /* ألوان درجات السيادة */
         .sovereignty-90 { background: var(--success); }
         .sovereignty-85 { background: var(--success); }
-        .sovereignty-80 { background: var(--success); }
         .sovereignty-75 { background: var(--warning); }
         .sovereignty-70 { background: var(--warning); }
         .sovereignty-65 { background: var(--warning); }
-        .sovereignty-60 { background: var(--warning); }
-        .sovereignty-55 { background: var(--orange); }
-        .sovereignty-50 { background: var(--orange); }
         .sovereignty-45 { background: var(--danger); }
-
-        /* RTL adjustments */
-        [dir="rtl"] {
-            text-align: right;
-        }
 
         @media (max-width: 768px) {
             .header-content h1 {
@@ -358,7 +323,7 @@
                             <img src="https://img.shields.io/badge/UI-عربي-orange?style=flat-square" alt="Arabic UI">
                         </a>
                         <a href="https://github.com/riteofrenaissance/ecf-compass/stargazers" class="badge" target="_blank">
-                            <img src="https://img.shields.io/bithub/stars/riteofrenaissance/ecf-compass?style=flat-square" alt="Stars">
+                            <img src="https://img.shields.io/github/stars/riteofrenaissance/ecf-compass?style=flat-square" alt="Stars">
                         </a>
                         <a href="https://github.com/riteofrenaissance/ecf-compass/issues" class="badge" target="_blank">
                             <img src="https://img.shields.io/github/issues/riteofrenaissance/ecf-compass?style=flat-square" alt="Issues">
@@ -371,13 +336,9 @@
             </header>
 
             <div class="content">
-                <!-- Overview Section -->
                 <section id="overview">
                     <h2>📋 نظرة عامة | Overview</h2>
-                    <p>
-                        <strong>البوصلة المعرفية</strong> هي أداة ثورية لتتبع وتقييم السيادة المعرفية عبر أكثر من 10 أنظمة ذكاء اصطناعي. 
-                        على عكس أدوات التتبع التقليدية، توفر البوصلة تحليلاً مقارناً عبر GPT-4، كلود، جيميناي، DALL-E، وأكثر.
-                    </p>
+                    <p>البوصلة المعرفية هي أداة ثورية لتتبع وتقييم السيادة المعرفية عبر أكثر من 10 أنظمة ذكاء اصطناعي. على عكس أدوات التتبع التقليدية، توفر البوصلة تحليلاً مقارناً عبر GPT-4، كلود، جيميناي، DALL-E، وأكثر.</p>
                     
                     <div class="stats-grid">
                         <div class="stat-card">
@@ -399,7 +360,6 @@
                     </div>
                 </section>
 
-                <!-- Features Section -->
                 <section id="features">
                     <h2>✨ المزايا الرئيسية | Key Features</h2>
                     
@@ -431,7 +391,6 @@
                     </div>
                 </section>
 
-                <!-- AI Systems Section -->
                 <section id="ai-systems">
                     <h2>🤖 الأنظمة المتتبعة (10) | Tracked AI Systems</h2>
                     
@@ -492,7 +451,6 @@
                     </div>
                 </section>
 
-                <!-- Quick Start Section -->
                 <section id="quick-start">
                     <h2>🚀 البدء السريع | Quick Start</h2>
                     
@@ -518,7 +476,47 @@
                     </div>
                 </section>
 
-                <!-- Links Section -->
+                <section id="comparison">
+                    <h2>📊 مقارنة الأدوات | Tools Comparison</h2>
+                    
+                    <table class="comparison-table">
+                        <thead>
+                            <tr>
+                                <th>الميزة</th>
+                                <th>البوصلة المعرفية</th>
+                                <th>أدوات التتبع التقليدية</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>تسجيل السيادة</td>
+                                <td>✅ نعم</td>
+                                <td>❌ لا</td>
+                            </tr>
+                            <tr>
+                                <td>دعم متعدد الأنظمة</td>
+                                <td>✅ 10+ نظام</td>
+                                <td>⚠️ عام</td>
+                            </tr>
+                            <tr>
+                                <td>تحليل الفجوات</td>
+                                <td>✅ 3 أبعاد</td>
+                                <td>❌ لا</td>
+                            </tr>
+                            <tr>
+                                <td>التركيز المعرفي</td>
+                                <td>✅ ميزة أساسية</td>
+                                <td>❌ وقت فقط</td>
+                            </tr>
+                            <tr>
+                                <td>الواجهة العربية</td>
+                                <td>✅ أساسية</td>
+                                <td>❌ نادرة</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </section>
+
                 <section id="links">
                     <h2>🔗 روابط مهمة | Important Links</h2>
                     
