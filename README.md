@@ -11,7 +11,6 @@
 [![Issues](https://img.shields.io/github/issues/riteofrenaissance/ecf-compass?style=flat-square)](https://github.com/riteofrenaissance/ecf-compass/issues)
 [![License](https://img.shields.io/badge/license-MIT-blue?style=flat-square)](LICENSE)
 
-
 </div>
 
 ---
