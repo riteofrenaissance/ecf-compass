@@ -1,365 +1,356 @@
-{
-  "metadata": {
-    "version": "2.0",
-    "last_updated": "2025-01-15",
-    "total_systems": 10,
-    "framework_version": "ECF v2.1",
-    "default_language": "ar",
-    "supported_languages": ["ar", "en"]
-  },
-  "ai_systems": [
-    {
-      "id": "claude-3",
-      "name": "Claude 3",
-      "provider": "Anthropic",
-      "category": "text_generation",
-      "descriptions": {
-        "ar": "نظام ذكاء اصطناعي متقدم للتفكير المعقد والتحليل الأخلاقي",
-        "en": "Advanced AI system for complex reasoning and ethical analysis"
-      },
-      "sovereignty_score": 85,
-      "metrics": {
-        "operational": 88,
-        "critical": 82,
-        "agency": 85
-      },
-      "gap_analysis": {
-        "functional": 12,
-        "ethical": 8,
-        "existential": 15
-      },
-      "use_cases": {
-        "ar": ["التحليل المعقد", "الاستشارات الأخلاقية", "الكتابة المتقدمة"],
-        "en": ["Complex analysis", "Ethical consulting", "Advanced writing"]
-      },
-      "access_method": "API & Web Interface",
-      "pricing_tier": "premium",
-      "tags": ["ethical-ai", "reasoning", "long-context"]
-    },
-    {
-      "id": "gpt-4",
-      "name": "GPT-4",
-      "provider": "OpenAI",
-      "category": "text_generation",
-      "descriptions": {
-        "ar": "نظام ذكاء اصطناعي للأغراض العامة والمحادثات الإبداعية",
-        "en": "General-purpose AI system for creative conversations"
-      },
-      "sovereignty_score": 75,
-      "metrics": {
-        "operational": 78,
-        "critical": 72,
-        "agency": 75
-      },
-      "gap_analysis": {
-        "functional": 22,
-        "ethical": 25,
-        "existential": 28
-      },
-      "use_cases": {
-        "ar": ["المحادثات العامة", "الكتابة الإبداعية", "حل المشكلات"],
-        "en": ["General conversations", "Creative writing", "Problem solving"]
-      },
-      "access_method": "API & ChatGPT",
-      "pricing_tier": "premium",
-      "tags": ["general-ai", "creative", "conversational"]
-    },
-    {
-      "id": "gemini-pro",
-      "name": "Gemini Pro",
-      "provider": "Google",
-      "category": "text_generation",
-      "descriptions": {
-        "ar": "نظام بحثي متعدد الوسائط مع قدرات تحليلية متقدمة",
-        "en": "Multimodal research system with advanced analytical capabilities"
-      },
-      "sovereignty_score": 65,
-      "metrics": {
-        "operational": 68,
-        "critical": 62,
-        "agency": 65
-      },
-      "gap_analysis": {
-        "functional": 32,
-        "ethical": 35,
-        "existential": 38
-      },
-      "use_cases": {
-        "ar": ["البحث العلمي", "التحليل المتعدد", "التكامل مع خدمات Google"],
-        "en": ["Scientific research", "Multimodal analysis", "Google services integration"]
-      },
-      "access_method": "API & Bard",
-      "pricing_tier": "freemium",
-      "tags": ["research", "multimodal", "google-ecosystem"]
-    },
-    {
-      "id": "jasper-ai",
-      "name": "Jasper AI",
-      "provider": "Jasper",
-      "category": "text_generation",
-      "descriptions": {
-        "ar": "منصة متخصصة في المحتوى التسويقي والكتابة التجارية",
-        "en": "Specialized platform for marketing content and business writing"
-      },
-      "sovereignty_score": 55,
-      "metrics": {
-        "operational": 58,
-        "critical": 52,
-        "agency": 55
-      },
-      "gap_analysis": {
-        "functional": 42,
-        "ethical": 45,
-        "existential": 48
-      },
-      "use_cases": {
-        "ar": ["المحتوى التسويقي", "كتابة الأعمال", "التوليد التجاري"],
-        "en": ["Marketing content", "Business writing", "Commercial generation"]
-      },
-      "access_method": "Web Platform",
-      "pricing_tier": "business",
-      "tags": ["marketing", "business", "commercial"]
-    },
-    {
-      "id": "stable-diffusion",
-      "name": "Stable Diffusion",
-      "provider": "Stability AI",
-      "category": "image_generation",
-      "descriptions": {
-        "ar": "نظام مفتوح المصدر للاستكشاف الإبداعي والتوليد المرن",
-        "en": "Open-source system for creative exploration and flexible generation"
-      },
-      "sovereignty_score": 70,
-      "metrics": {
-        "operational": 72,
-        "critical": 68,
-        "agency": 70
-      },
-      "gap_analysis": {
-        "functional": 28,
-        "ethical": 30,
-        "existential": 32
-      },
-      "use_cases": {
-        "ar": ["الاستكشاف الإبداعي", "التوليد المخصص", "البحث الأكاديمي"],
-        "en": ["Creative exploration", "Custom generation", "Academic research"]
-      },
-      "access_method": "API & Local Installation",
-      "pricing_tier": "open_source",
-      "tags": ["open-source", "creative", "customizable"]
-    },
-    {
-      "id": "dalle-3",
-      "name": "DALL-E 3",
-      "provider": "OpenAI",
-      "category": "image_generation",
-      "descriptions": {
-        "ar": "نظام متقدم للتوليد الفني بجودة عالية وتفاصيل دقيقة",
-        "en": "Advanced system for artistic generation with high quality and precise details"
-      },
-      "sovereignty_score": 60,
-      "metrics": {
-        "operational": 63,
-        "critical": 58,
-        "agency": 59
-      },
-      "gap_analysis": {
-        "functional": 37,
-        "ethical": 40,
-        "existential": 41
-      },
-      "use_cases": {
-        "ar": ["التوليد الفني", "التصميم الجرافيكي", "المشاريع الإبداعية"],
-        "en": ["Artistic generation", "Graphic design", "Creative projects"]
-      },
-      "access_method": "API & ChatGPT Plus",
-      "pricing_tier": "premium",
-      "tags": ["artistic", "high-quality", "detailed"]
-    },
-    {
-      "id": "midjourney",
-      "name": "Midjourney",
-      "provider": "Midjourney Inc.",
-      "category": "image_generation",
-      "descriptions": {
-        "ar": "منصة مجتمعية تركز على الإبداع الفني والتوليد الجمالي",
-        "en": "Community platform focused on artistic creativity and aesthetic generation"
-      },
-      "sovereignty_score": 45,
-      "metrics": {
-        "operational": 48,
-        "critical": 42,
-        "agency": 45
-      },
-      "gap_analysis": {
-        "functional": 52,
-        "ethical": 55,
-        "existential": 58
-      },
-      "use_cases": {
-        "ar": ["الإبداع الفني", "المشاريع الجمالية", "المجتمع الإبداعي"],
-        "en": ["Artistic creativity", "Aesthetic projects", "Creative community"]
-      },
-      "access_method": "Discord Bot",
-      "pricing_tier": "subscription",
-      "tags": ["artistic", "community", "aesthetic"]
-    },
-    {
-      "id": "deepl-translator",
-      "name": "DeepL Translator",
-      "provider": "DeepL",
-      "category": "specialized_tools",
-      "descriptions": {
-        "ar": "أداة ترجمة متقدمة بدقة عالية وفهم سياقي ممتاز",
-        "en": "Advanced translation tool with high accuracy and excellent contextual understanding"
-      },
-      "sovereignty_score": 90,
-      "metrics": {
-        "operational": 92,
-        "critical": 88,
-        "agency": 90
-      },
-      "gap_analysis": {
-        "functional": 8,
-        "ethical": 10,
-        "existential": 12
-      },
-      "use_cases": {
-        "ar": ["الترجمة الدقيقة", "التحليل اللغوي", "التواصل متعدد اللغات"],
-        "en": ["Accurate translation", "Linguistic analysis", "Multilingual communication"]
-      },
-      "access_method": "Web & Desktop Apps",
-      "pricing_tier": "freemium",
-      "tags": ["translation", "accurate", "context-aware"]
-    },
-    {
-      "id": "ibm-watson",
-      "name": "IBM Watson",
-      "provider": "IBM",
-      "category": "specialized_tools",
-      "descriptions": {
-        "ar": "منصة enterprise للذكاء الاصطناعي مع حلول أعمال متكاملة",
-        "en": "Enterprise AI platform with integrated business solutions"
-      },
-      "sovereignty_score": 80,
-      "metrics": {
-        "operational": 82,
-        "critical": 78,
-        "agency": 80
-      },
-      "gap_analysis": {
-        "functional": 18,
-        "ethical": 20,
-        "existential": 22
-      },
-      "use_cases": {
-        "ar": ["حلول الأعمال", "التحليلات المتقدمة", "التطبيقات المؤسسية"],
-        "en": ["Business solutions", "Advanced analytics", "Enterprise applications"]
-      },
-      "access_method": "Enterprise API",
-      "pricing_tier": "enterprise",
-      "tags": ["enterprise", "business", "analytics"]
-    },
-    {
-      "id": "github-copilot",
-      "name": "GitHub Copilot",
-      "provider": "Microsoft/GitHub",
-      "category": "specialized_tools",
-      "descriptions": {
-        "ar": "مساعد برمجي يعمل على توليد واقتراح الأكواد",
-        "en": "Programming assistant that generates and suggests code"
-      },
-      "sovereignty_score": 50,
-      "metrics": {
-        "operational": 53,
-        "critical": 48,
-        "agency": 49
-      },
-      "gap_analysis": {
-        "functional": 47,
-        "ethical": 50,
-        "existential": 51
-      },
-      "use_cases": {
-        "ar": ["تطوير البرمجيات", "البرمجة المساعدة", "تسريع التطوير"],
-        "en": ["Software development", "Assisted programming", "Development acceleration"]
-      },
-      "access_method": "IDE Integration",
-      "pricing_tier": "subscription",
-      "tags": ["programming", "development", "code-generation"]
-    }
-  ],
-  "categories": {
-    "text_generation": {
-      "names": {
-        "ar": "توليد النص",
-        "en": "Text Generation"
-      },
-      "descriptions": {
-        "ar": "أنظمة متخصصة في توليد النص والمحادثة",
-        "en": "Systems specialized in text generation and conversation"
-      },
-      "count": 4
-    },
-    "image_generation": {
-      "names": {
-        "ar": "توليد الصور",
-        "en": "Image Generation"
-      },
-      "descriptions": {
-        "ar": "أنظمة متخصصة في التوليد البصري والفني",
-        "en": "Systems specialized in visual and artistic generation"
-      },
-      "count": 3
-    },
-    "specialized_tools": {
-      "names": {
-        "ar": "أدوات متخصصة",
-        "en": "Specialized Tools"
-      },
-      "descriptions": {
-        "ar": "أدوات ذكاء اصطناعي لمهام محددة",
-        "en": "AI tools for specific tasks"
-      },
-      "count": 3
-    }
-  },
-  "pricing_tiers": {
-    "open_source": {
-      "names": {
-        "ar": "مفتوح المصدر",
-        "en": "Open Source"
-      }
-    },
-    "freemium": {
-      "names": {
-        "ar": "مجاني مع مميزات إضافية",
-        "en": "Freemium"
-      }
-    },
-    "subscription": {
-      "names": {
-        "ar": "اشتراك",
-        "en": "Subscription"
-      }
-    },
-    "premium": {
-      "names": {
-        "ar": "مميز",
-        "en": "Premium"
-      }
-    },
-    "business": {
-      "names": {
-        "ar": "أعمال",
-        "en": "Business"
-      }
-    },
-    "enterprise": {
-      "names": {
-        "ar": "مؤسسي",
-        "en": "Enterprise"
-      }
-    }
-  }
-}
+# 🤖 Supported AI Systems
+
+Complete list of AI systems tracked by Cognitive Compass.
+
+---
+
+## Overview
+
+The Compass currently tracks **10 AI systems** across 5 categories:
+
+- **4 Text Generation AIs**
+- **3 Image Generation AIs**
+- **3 Specialized Tools**
+
+**Total Systems:** 10  
+**Active Systems:** 4  
+**Overall Sovereignty:** 75.9%
+
+---
+
+## Text Generation
+
+### 1. GPT-4 (OpenAI)
+- **Sovereignty Score:** 75%
+- **Gap Analysis:** 29.4%
+- **Status:** 🟢 Active (نشط)
+- **Primary Use:** محادثة، بحث
+- **Provider:** OpenAI
+- **Model Type:** Large Language Model
+- **Access:** API, ChatGPT Plus
+
+**Strengths:**
+- Versatile and powerful
+- Wide knowledge base
+- Strong reasoning capabilities
+
+**Sovereignty Concerns:**
+- Can encourage over-reliance
+- May reduce critical evaluation
+- Tendency to accept outputs without verification
+
+---
+
+### 2. Claude 3 (Anthropic)
+- **Sovereignty Score:** 85% ⭐
+- **Gap Analysis:** 20.4%
+- **Status:** 🟢 Active (نشط)
+- **Primary Use:** تحليل، كتابة
+- **Provider:** Anthropic
+- **Model Type:** Constitutional AI
+- **Access:** API, Claude.ai
+
+**Strengths:**
+- Highest text AI sovereignty score
+- Encourages critical thinking
+- Transparent about limitations
+- Lower gap percentage
+
+**Why Highest Score:**
+- Clear communication style
+- Often asks clarifying questions
+- Maintains user agency
+- Ethical considerations built-in
+
+---
+
+### 3. Gemini Pro (Google)
+- **Sovereignty Score:** 65%
+- **Gap Analysis:** 35.8%
+- **Status:** 🟡 Under Evaluation (قيد التقييم)
+- **Primary Use:** محادثة
+- **Provider:** Google
+- **Model Type:** Multimodal AI
+- **Access:** API, Gemini app
+
+**Strengths:**
+- Strong multimodal capabilities
+- Google ecosystem integration
+
+**Sovereignty Concerns:**
+- Moderate gap percentage
+- Still developing relationship
+- Integration concerns
+
+---
+
+### 4. Jasper AI (Jasper)
+- **Sovereignty Score:** 55%
+- **Gap Analysis:** 37.1%
+- **Status:** 🟡 Under Evaluation (قيد التقييم)
+- **Primary Use:** توليد نصوص
+- **Provider:** Jasper
+- **Model Type:** Content Generation
+- **Access:** Subscription
+
+**Strengths:**
+- Marketing-focused
+- Template-based generation
+
+**Sovereignty Concerns:**
+- Lower sovereignty score
+- High dependency potential
+- Less critical engagement
+- Content generation automation risks
+
+---
+
+## Image Generation
+
+### 5. DALL-E 3 (OpenAI)
+- **Sovereignty Score:** 60%
+- **Gap Analysis:** 34.8%
+- **Status:** 🎨 Image Generation (توليد صور)
+- **Primary Use:** توليد صور
+- **Provider:** OpenAI
+- **Model Type:** Text-to-Image
+- **Access:** ChatGPT Plus, API
+
+**Strengths:**
+- High-quality outputs
+- Good prompt understanding
+- ChatGPT integration
+
+**Sovereignty Concerns:**
+- Creative dependency
+- Subjective quality assessment
+- Harder to maintain agency
+
+---
+
+### 6. Midjourney (Midjourney Inc)
+- **Sovereignty Score:** 45% ⚠️
+- **Gap Analysis:** 35.5%
+- **Status:** 🔴 Not Recommended (غير موصى به)
+- **Primary Use:** توليد صور
+- **Provider:** Midjourney Inc
+- **Model Type:** Artistic Generation
+- **Access:** Discord subscription
+
+**Strengths:**
+- Highly artistic outputs
+- Strong community
+
+**Sovereignty Concerns:**
+- **Lowest sovereignty score**
+- High creative dependency
+- Unclear process
+- Agency preservation challenges
+- Identity impact concerns
+
+---
+
+### 7. Stable Diffusion (Stability AI)
+- **Sovereignty Score:** 70%
+- **Gap Analysis:** 34.5%
+- **Status:** 🎨 Image Generation (توليد صور)
+- **Primary Use:** توليد صور
+- **Provider:** Stability AI
+- **Model Type:** Open-source Generation
+- **Access:** Local install, APIs
+
+**Strengths:**
+- Open-source transparency
+- Local control possible
+- Customizable
+
+**Why Higher Than Others:**
+- Open architecture understanding
+- User can inspect process
+- More technical control
+
+---
+
+## Specialized Tools
+
+### 8. DeepL Translator (DeepL)
+- **Sovereignty Score:** 90% 🏆
+- **Gap Analysis:** 12.8%
+- **Status:** 🌐 Translation (ترجمة)
+- **Primary Use:** ترجمة
+- **Provider:** DeepL
+- **Model Type:** Neural Machine Translation
+- **Access:** Free/Pro subscription
+
+**Strengths:**
+- **Highest sovereignty score overall**
+- **Lowest gap percentage**
+- Clear input/output
+- Easy to verify results
+- Narrow, well-defined purpose
+- Maintains user agency
+
+**Why Top Score:**
+- Specialized tool with clear boundaries
+- Easy to critically evaluate outputs
+- Transparent process
+- User remains in control
+
+---
+
+### 9. IBM Watson (IBM)
+- **Sovereignty Score:** 80%
+- **Gap Analysis:** 23.9%
+- **Status:** 📊 Data Analysis (تحليل بيانات)
+- **Primary Use:** تحليل بيانات، نشط
+- **Provider:** IBM
+- **Model Type:** Enterprise AI Suite
+- **Access:** Enterprise subscription
+
+**Strengths:**
+- Professional-grade tool
+- Clear business logic
+- Transparent processes
+- Good documentation
+
+**Why High Score:**
+- Enterprise context maintains boundaries
+- Professional usage patterns
+- Clear roles and responsibilities
+
+---
+
+### 10. GitHub Copilot (GitHub/OpenAI)
+- **Sovereignty Score:** 50%
+- **Gap Analysis:** 40.8% 🔴
+- **Status:** 💻 Coding (برمجة)
+- **Primary Use:** قيد التقييم، توليد نصوص
+- **Provider:** GitHub/OpenAI
+- **Model Type:** Code Generation
+- **Access:** GitHub subscription
+
+**Strengths:**
+- Fast code suggestions
+- Good autocomplete
+- Context-aware
+
+**Sovereignty Concerns:**
+- **Highest gap percentage (40.8%)**
+- Code dependency risks
+- Reduced critical thinking
+- May accept without review
+- Learning impact concerns
+- Skill degradation potential
+
+---
+
+## Category Analysis
+
+### By Sovereignty Score
+
+**High (76-100%):**
+- DeepL Translator: 90%
+- Claude 3: 85%
+- IBM Watson: 80%
+
+**Good (51-75%):**
+- GPT-4: 75%
+- Stable Diffusion: 70%
+- Gemini Pro: 65%
+- DALL-E 3: 60%
+- Jasper AI: 55%
+
+**Moderate (26-50%):**
+- GitHub Copilot: 50%
+- Midjourney: 45%
+
+---
+
+### By Category
+
+**Text Generation:**
+- Average: 70%
+- Range: 55-85%
+- Best: Claude 3 (85%)
+
+**Image Generation:**
+- Average: 58.3%
+- Range: 45-70%
+- Best: Stable Diffusion (70%)
+
+**Specialized Tools:**
+- Average: 73.3%
+- Range: 50-90%
+- Best: DeepL (90%)
+
+---
+
+## Patterns Observed
+
+### 1. Specialization Effect
+```
+Specialized tools → Higher sovereignty
+General assistants → Moderate sovereignty
+Creative tools → Lower sovereignty
+```
+
+### 2. Open Source Advantage
+```
+Stable Diffusion (open): 70%
+DALL-E 3 (closed): 60%
+Midjourney (closed): 45%
+```
+
+**Hypothesis:** Transparency increases sovereignty
+
+### 3. Professional Context
+```
+IBM Watson (enterprise): 80%
+Claude (thoughtful): 85%
+GPT-4 (versatile): 75%
+```
+
+**Hypothesis:** Clear professional boundaries help
+
+---
+
+## Adding New AI Systems
+
+To suggest a new AI system for tracking:
+
+1. Open an issue: "New AI: [System Name]"
+2. Provide:
+   - AI name and provider
+   - Primary use case
+   - Access method
+   - Why it should be tracked
+3. Include initial sovereignty assessment if possible
+
+---
+
+## System Updates
+
+AI systems are re-evaluated:
+- **Monthly:** Quick sovereignty check
+- **Quarterly:** Full gap analysis
+- **Yearly:** Comprehensive review
+
+Last updated: November 2025
+
+---
+
+## Related Documentation
+
+- [Metrics Guide](METRICS.md) - How sovereignty is calculated
+- [User Guide](USER_GUIDE.md) - How to assess your own AIs
+- [Main README](README.md) - Project overview
+
+---
+
+<div align="center">
+
+**Tracking 10 AI systems for cognitive sovereignty**
+
+[Back to Main](README.md) • [Live Demo](https://app-5c655e46.base44.app/)
+
+</div>
