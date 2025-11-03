@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>البوصلة المعرفية | Cognitive Compass</title>
+    <title>البوصلة المعرفية</title>
     <style>
         * {
             margin: 0;
@@ -12,553 +12,101 @@
         }
         
         :root {
-            --bg-dark: #0A2540;
-            --bg-medium: #1E3A5F;
-            --bg-light: #2D4A7A;
-            --card-bg: #1A2E4F;
-            --card-border: #2A4365;
-            --text-primary: #FFFFFF;
-            --text-secondary: #CBD5E0;
-            --text-muted: #718096;
-            --accent-blue: #3182CE;
-            --accent-purple: #805AD5;
-            --success: #38A169;
-            --warning: #D69E2E;
-            --danger: #E53E3E;
+            --bg-primary: #111827;
+            --bg-secondary: #1F2937;
+            --bg-card: #1F2937;
+            --border: #374151;
+            --text-primary: #F9FAFB;
+            --text-secondary: #D1D5DB;
+            --text-muted: #9CA3AF;
+            --accent: #3B82F6;
         }
         
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-            line-height: 1.6;
+            font-family: system-ui, sans-serif;
+            background: var(--bg-primary);
             color: var(--text-primary);
-            background: linear-gradient(135deg, var(--bg-dark) 0%, var(--bg-medium) 50%, var(--bg-light) 100%);
             min-height: 100vh;
             padding: 20px;
         }
         
         .container {
-            max-width: 1200px;
+            max-width: 800px;
             margin: 0 auto;
         }
         
         .main-card {
-            background: var(--card-bg);
-            border-radius: 12px;
-            border: 1px solid var(--card-border);
-            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
-            overflow: hidden;
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 30px;
         }
         
-        header {
-            background: linear-gradient(135deg, var(--bg-dark) 0%, var(--bg-medium) 100%);
-            padding: 40px;
-            text-align: center;
-            border-bottom: 1px solid var(--card-border);
-        }
-        
-        .header-content h1 {
-            font-size: 2.5em;
+        h1 {
+            font-size: 2em;
             margin-bottom: 10px;
-            font-weight: 700;
-            color: var(--text-primary);
+            text-align: center;
         }
         
-        .header-content p {
-            font-size: 1.2em;
+        .subtitle {
             color: var(--text-secondary);
+            text-align: center;
             margin-bottom: 30px;
         }
         
-        .badges-container {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 8px;
-            justify-content: center;
-            margin: 25px 0;
-        }
-        
-        .badge {
-            display: inline-block;
-            transition: all 0.3s ease;
-        }
-        
-        .badge:hover {
-            transform: translateY(-2px);
-        }
-        
-        .content {
-            padding: 40px;
-        }
-        
-        section {
-            margin-bottom: 40px;
-        }
-        
-        h2 {
-            color: var(--text-primary);
-            font-size: 1.6em;
-            margin-bottom: 20px;
-            padding-bottom: 10px;
-            border-bottom: 2px solid var(--card-border);
-            font-weight: 600;
-        }
-        
-        h3 {
-            color: var(--text-primary);
-            font-size: 1.3em;
-            margin: 20px 0 15px 0;
-            font-weight: 600;
-        }
-        
-        p {
-            color: var(--text-secondary);
-            margin-bottom: 16px;
-            line-height: 1.7;
-        }
-        
-        .features-grid {
+        .stats {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 20px;
-            margin: 25px 0;
-        }
-        
-        .feature-card {
-            background: var(--bg-medium);
-            border: 1px solid var(--card-border);
-            border-radius: 8px;
-            padding: 24px;
-            transition: all 0.3s ease;
-        }
-        
-        .feature-card:hover {
-            border-color: var(--accent-blue);
-            transform: translateY(-2px);
-        }
-        
-        .ai-systems {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-            gap: 20px;
-            margin: 25px 0;
-        }
-        
-        .system-card {
-            background: var(--bg-medium);
-            border: 1px solid var(--card-border);
-            border-radius: 8px;
-            padding: 20px;
-        }
-        
-        .sovereignty-bar {
-            height: 6px;
-            background: var(--card-border);
-            border-radius: 3px;
-            margin: 12px 0;
-            overflow: hidden;
-        }
-        
-        .sovereignty-fill {
-            height: 100%;
-            border-radius: 3px;
-        }
-        
-        .stats-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            grid-template-columns: repeat(2, 1fr);
             gap: 20px;
             margin: 30px 0;
         }
         
         .stat-card {
-            background: linear-gradient(135deg, var(--bg-medium), var(--accent-purple));
-            border: 1px solid var(--card-border);
-            border-radius: 8px;
-            padding: 25px;
+            background: var(--bg-secondary);
+            border: 1px solid var(--border);
+            border-radius: 6px;
+            padding: 20px;
             text-align: center;
         }
         
         .stat-number {
-            font-size: 2.2em;
-            font-weight: 700;
-            margin-bottom: 8px;
+            font-size: 2em;
+            font-weight: bold;
+            color: var(--accent);
         }
         
-        .stat-label {
-            color: var(--text-secondary);
-            font-size: 0.9em;
-        }
-        
-        .comparison-table {
-            width: 100%;
-            border-collapse: collapse;
-            margin: 20px 0;
-            background: var(--bg-medium);
-            border-radius: 8px;
-            overflow: hidden;
-            border: 1px solid var(--card-border);
-        }
-        
-        .comparison-table th,
-        .comparison-table td {
-            padding: 16px 20px;
-            text-align: right;
-            border-bottom: 1px solid var(--card-border);
-            color: var(--text-secondary);
-        }
-        
-        .comparison-table th {
-            background: var(--bg-dark);
-            color: var(--text-primary);
-            font-weight: 600;
-        }
-        
-        .code-block {
-            background: var(--bg-medium);
-            border: 1px solid var(--card-border);
-            border-radius: 8px;
-            padding: 20px;
-            margin: 20px 0;
-            font-family: 'Courier New', monospace;
-            color: var(--text-secondary);
-        }
-        
-        footer {
-            background: var(--bg-dark);
-            border-top: 1px solid var(--card-border);
-            padding: 30px 40px;
-            text-align: center;
-        }
-        
-        .footer-links {
+        .badges {
             display: flex;
-            justify-content: center;
-            gap: 30px;
-            margin: 20px 0;
             flex-wrap: wrap;
-        }
-        
-        .footer-link {
-            color: var(--accent-blue);
-            text-decoration: none;
-            font-weight: 500;
-        }
-        
-        ol, ul {
-            color: var(--text-secondary);
-            margin-right: 20px;
-            margin-bottom: 20px;
-        }
-        
-        li {
-            margin-bottom: 8px;
-        }
-        
-        a {
-            color: var(--accent-blue);
-            text-decoration: none;
-        }
-
-        .sovereignty-90 { background: var(--success); }
-        .sovereignty-85 { background: var(--success); }
-        .sovereignty-75 { background: var(--warning); }
-        .sovereignty-70 { background: var(--warning); }
-        .sovereignty-65 { background: var(--warning); }
-        .sovereignty-45 { background: var(--danger); }
-
-        @media (max-width: 768px) {
-            .header-content h1 {
-                font-size: 2em;
-            }
-            
-            .content {
-                padding: 20px;
-            }
-            
-            header {
-                padding: 30px 20px;
-            }
-            
-            .features-grid {
-                grid-template-columns: 1fr;
-            }
-            
-            .ai-systems {
-                grid-template-columns: 1fr;
-            }
-            
-            .stats-grid {
-                grid-template-columns: repeat(2, 1fr);
-            }
-            
-            .footer-links {
-                flex-direction: column;
-                gap: 15px;
-            }
+            gap: 10px;
+            justify-content: center;
+            margin: 20px 0;
         }
     </style>
 </head>
 <body>
     <div class="container">
         <div class="main-card">
-            <header>
-                <div class="header-content">
-                    <h1>🧭 البوصلة المعرفية</h1>
-                    <p>Cognitive Compass - أداة تتبع وتقييم السيادة المعرفية متعددة الأنظمة</p>
-                    
-                    <div class="badges-container">
-                        <a href="https://app-5c655e46.base44.app/" class="badge" target="_blank">
-                            <img src="https://img.shields.io/badge/🚀_Live-Demo-brightgreen?style=for-the-badge" alt="Live Demo">
-                        </a>
-                        <a href="https://github.com/riteofrenaissance" class="badge" target="_blank">
-                            <img src="https://img.shields.io/badge/Part_of-ECF-purple?style=for-the-badge" alt="Part of ECF">
-                        </a>
-                        <a href="docs/AI_SYSTEMS.md" class="badge">
-                            <img src="https://img.shields.io/badge/AI_Systems-10-blue?style=for-the-badge" alt="AI Systems Tracked">
-                        </a>
-                        <a href="#" class="badge">
-                            <img src="https://img.shields.io/badge/Sovereignty-75.9%25-green?style=for-the-badge" alt="Overall Score">
-                        </a>
-                        <a href="https://app-5c655e46.base44.app/" class="badge" target="_blank">
-                            <img src="https://img.shields.io/badge/UI-عربي-orange?style=flat-square" alt="Arabic UI">
-                        </a>
-                        <a href="https://github.com/riteofrenaissance/ecf-compass/stargazers" class="badge" target="_blank">
-                            <img src="https://img.shields.io/github/stars/riteofrenaissance/ecf-compass?style=flat-square" alt="Stars">
-                        </a>
-                        <a href="https://github.com/riteofrenaissance/ecf-compass/issues" class="badge" target="_blank">
-                            <img src="https://img.shields.io/github/issues/riteofrenaissance/ecf-compass?style=flat-square" alt="Issues">
-                        </a>
-                        <a href="LICENSE" class="badge">
-                            <img src="https://img.shields.io/badge/license-MIT-blue?style=flat-square" alt="License">
-                        </a>
-                    </div>
+            <h1>🧭 البوصلة المعرفية</h1>
+            <div class="subtitle">Cognitive Compass - أداة تتبع وتقييم السيادة المعرفية</div>
+            
+            <div class="stats">
+                <div class="stat-card">
+                    <div class="stat-number">75.9%</div>
+                    <div>السيادة المعرفية</div>
                 </div>
-            </header>
-
-            <div class="content">
-                <section id="overview">
-                    <h2>📋 نظرة عامة | Overview</h2>
-                    <p>البوصلة المعرفية هي أداة ثورية لتتبع وتقييم السيادة المعرفية عبر أكثر من 10 أنظمة ذكاء اصطناعي. على عكس أدوات التتبع التقليدية، توفر البوصلة تحليلاً مقارناً عبر GPT-4، كلود، جيميناي، DALL-E، وأكثر.</p>
-                    
-                    <div class="stats-grid">
-                        <div class="stat-card">
-                            <div class="stat-number">10+</div>
-                            <div class="stat-label">أنظمة ذكاء اصطناعي</div>
-                        </div>
-                        <div class="stat-card">
-                            <div class="stat-number">75.9%</div>
-                            <div class="stat-label">متوسط السيادة</div>
-                        </div>
-                        <div class="stat-card">
-                            <div class="stat-number">3</div>
-                            <div class="stat-label">أنواع الفجوات</div>
-                        </div>
-                        <div class="stat-card">
-                            <div class="stat-number">100%</div>
-                            <div class="stat-label">واجهة عربية</div>
-                        </div>
-                    </div>
-                </section>
-
-                <section id="features">
-                    <h2>✨ المزايا الرئيسية | Key Features</h2>
-                    
-                    <div class="features-grid">
-                        <div class="feature-card">
-                            <h3>🤖 تتبع متعدد الأنظمة</h3>
-                            <p>مراقبة 10+ نظام ذكاء اصطناعي في وقت واحد مع تحليل مقارن شامل</p>
-                        </div>
-                        <div class="feature-card">
-                            <h3>📊 تسجيل السيادة الفردي</h3>
-                            <p>كل نظام يحصل على درجة سيادة فردية (0-100%) مع تحليل مفصل</p>
-                        </div>
-                        <div class="feature-card">
-                            <h3>🔍 تحليل الفجوات المتقدم</h3>
-                            <p>تحليل ثلاثي الأبعاد للفجوات الوظيفية، الأخلاقية، والوجودية</p>
-                        </div>
-                        <div class="feature-card">
-                            <h3>📈 لوحة المقارنة البصرية</h3>
-                            <p>مقارنة بصرية تفاعلية عبر جميع الأنظمة المتتبعة</p>
-                        </div>
-                        <div class="feature-card">
-                            <h3>💬 تسجيل التفاعلات الذكي</h3>
-                            <p>تتبع المحادثات مع الوسم الذكي والتصنيف التلقائي</p>
-                        </div>
-                        <div class="feature-card">
-                            <h3>📅 التتبع التاريخي</h3>
-                            <p>مراقبة تطور السيادة المعرفية عبر الزمن</p>
-                        </div>
-                    </div>
-                </section>
-
-                <section id="ai-systems">
-                    <h2>🤖 الأنظمة المتتبعة (10) | Tracked AI Systems</h2>
-                    
-                    <div class="ai-systems">
-                        <div class="system-card">
-                            <h4>Claude 3</h4>
-                            <p>Anthropic - توليد النصوص</p>
-                            <div class="sovereignty-bar">
-                                <div class="sovereignty-fill sovereignty-85" style="width: 85%;"></div>
-                            </div>
-                            <strong>85% سيادة ⭐</strong>
-                        </div>
-                        
-                        <div class="system-card">
-                            <h4>GPT-4</h4>
-                            <p>OpenAI - توليد النصوص</p>
-                            <div class="sovereignty-bar">
-                                <div class="sovereignty-fill sovereignty-75" style="width: 75%;"></div>
-                            </div>
-                            <strong>75% سيادة</strong>
-                        </div>
-
-                        <div class="system-card">
-                            <h4>DeepL Translator</h4>
-                            <p>DeepL - الترجمة</p>
-                            <div class="sovereignty-bar">
-                                <div class="sovereignty-fill sovereignty-90" style="width: 90%;"></div>
-                            </div>
-                            <strong>90% سيادة 🏆</strong>
-                        </div>
-
-                        <div class="system-card">
-                            <h4>Midjourney</h4>
-                            <p>Midjourney - توليد الصور</p>
-                            <div class="sovereignty-bar">
-                                <div class="sovereignty-fill sovereignty-45" style="width: 45%;"></div>
-                            </div>
-                            <strong>45% سيادة ⚠️</strong>
-                        </div>
-
-                        <div class="system-card">
-                            <h4>Gemini Pro</h4>
-                            <p>Google - توليد النصوص</p>
-                            <div class="sovereignty-bar">
-                                <div class="sovereignty-fill sovereignty-65" style="width: 65%;"></div>
-                            </div>
-                            <strong>65% سيادة</strong>
-                        </div>
-
-                        <div class="system-card">
-                            <h4>Stable Diffusion</h4>
-                            <p>Stability AI - توليد الصور</p>
-                            <div class="sovereignty-bar">
-                                <div class="sovereignty-fill sovereignty-70" style="width: 70%;"></div>
-                            </div>
-                            <strong>70% سيادة</strong>
-                        </div>
-                    </div>
-                </section>
-
-                <section id="quick-start">
-                    <h2>🚀 البدء السريع | Quick Start</h2>
-                    
-                    <h3>تجربة العرض الحي</h3>
-                    <p>قم بزيارة: <a href="https://app-5c655e46.base44.app/" target="_blank">app-5c655e46.base44.app</a></p>
-                    
-                    <h3>إعداد أول مرة</h3>
-                    <ol>
-                        <li>افتح البوصلة المعرفية</li>
-                        <li>انقر على "إضافة نظام جديد"</li>
-                        <li>اختر نظام الذكاء الاصطناعي الذي تستخدمه بانتظام</li>
-                        <li>أكمل التقييم الأولي</li>
-                        <li>راجع درجة السيادة الخاصة بك</li>
-                    </ol>
-                    
-                    <h3>فهم درجات السيادة</h3>
-                    <div class="code-block">
-                        🏆 90-100%: سيادة ممتازة<br>
-                        ⭐ 76-89%: تحكم قوي<br>
-                        ✅ 51-75%: وعي جيد<br>
-                        ⚠️ 26-50%: يحتاج انتباه<br>
-                        🔴 0-25%: خطر اعتماد عالي
-                    </div>
-                </section>
-
-                <section id="comparison">
-                    <h2>📊 مقارنة الأدوات | Tools Comparison</h2>
-                    
-                    <table class="comparison-table">
-                        <thead>
-                            <tr>
-                                <th>الميزة</th>
-                                <th>البوصلة المعرفية</th>
-                                <th>أدوات التتبع التقليدية</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>تسجيل السيادة</td>
-                                <td>✅ نعم</td>
-                                <td>❌ لا</td>
-                            </tr>
-                            <tr>
-                                <td>دعم متعدد الأنظمة</td>
-                                <td>✅ 10+ نظام</td>
-                                <td>⚠️ عام</td>
-                            </tr>
-                            <tr>
-                                <td>تحليل الفجوات</td>
-                                <td>✅ 3 أبعاد</td>
-                                <td>❌ لا</td>
-                            </tr>
-                            <tr>
-                                <td>التركيز المعرفي</td>
-                                <td>✅ ميزة أساسية</td>
-                                <td>❌ وقت فقط</td>
-                            </tr>
-                            <tr>
-                                <td>الواجهة العربية</td>
-                                <td>✅ أساسية</td>
-                                <td>❌ نادرة</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </section>
-
-                <section id="links">
-                    <h2>🔗 روابط مهمة | Important Links</h2>
-                    
-                    <div class="features-grid">
-                        <div class="feature-card">
-                            <h3>🚀 العرض الحي</h3>
-                            <p><a href="https://app-5c655e46.base44.app/" target="_blank">app-5c655e46.base44.app</a></p>
-                        </div>
-                        <div class="feature-card">
-                            <h3>📂 المستودع الرئيسي</h3>
-                            <p><a href="https://github.com/riteofrenaissance" target="_blank">github.com/riteofrenaissance</a></p>
-                        </div>
-                        <div class="feature-card">
-                            <h3>📖 الإطار النظري</h3>
-                            <p><a href="https://github.com/riteofrenaissance/ecf-theory" target="_blank">ecf-theory</a></p>
-                        </div>
-                        <div class="feature-card">
-                            <h3>📊 لوحة التحكم</h3>
-                            <p><a href="https://github.com/riteofrenaissance/ecf-dashboard" target="_blank">ecf-dashboard</a></p>
-                        </div>
-                    </div>
-                </section>
+                <div class="stat-card">
+                    <div class="stat-number">10</div>
+                    <div>أنظمة الذكاء الاصطناعي</div>
+                </div>
             </div>
-
-            <footer>
-                <div class="footer-content">
-                    <h3>🧭 البوصلة المعرفية | Cognitive Compass</h3>
-                    <p>أداة تقييم متعددة الأنظمة للسيادة المعرفية</p>
-                    
-                    <div class="footer-links">
-                        <a href="https://app-5c655e46.base44.app/" class="footer-link" target="_blank">🚀 تجربة العرض الحي</a>
-                        <a href="https://github.com/riteofrenaissance/ecf-compass" class="footer-link" target="_blank">⭐ إعجاب بالمشروع</a>
-                        <a href="https://github.com/riteofrenaissance/ecf-theory" class="footer-link" target="_blank">📖 القراءة النظرية</a>
-                        <a href="https://github.com/riteofrenaissance/ecf-compass/issues" class="footer-link" target="_blank">🐛 الإبلاغ عن مشكلة</a>
-                    </div>
-                    
-                    <p style="margin-top: 20px; color: var(--text-muted);">
-                        صُنع بـ 🧭 لتوجيه السيادة المعرفية عبر جميع الأنظمة الذكية<br>
-                        Built with 🧭 to guide cognitive sovereignty across all AI systems
-                    </p>
-                </div>
-            </footer>
+            
+            <div class="badges">
+                <img src="https://img.shields.io/badge/Part_of-ECF-purple?style=flat-square" alt="ECF">
+                <img src="https://img.shields.io/badge/AI_Systems-10-blue?style=flat-square" alt="AI Systems">
+                <img src="https://img.shields.io/badge/UI-عربي-orange?style=flat-square" alt="Arabic UI">
+                <img src="https://img.shields.io/badge/license-MIT-blue?style=flat-square" alt="MIT License">
+            </div>
         </div>
     </div>
 </body>
