@@ -20,6 +20,18 @@
 
 **Cognitive Compass** is a revolutionary multi-AI tracking and assessment tool that monitors your cognitive sovereignty across 10+ AI systems. Unlike traditional single-platform trackers, the Compass provides comparative analysis across GPT-4, Claude, Gemini, DALL-E, and more.
 
+## 🗺️ Application Pages
+
+The Compass is a full-featured web application with 5 sections:
+
+- **[Dashboard](https://app-5c655e46.base44.app/dashboard)** - Main control center
+- **[Systems](https://app-5c655e46.base44.app/systems)** - Individual AI cards  
+- **[Assessments](https://app-5c655e46.base44.app/assessments)** - Historical tracking
+- **[Chat](https://app-5c655e46.base44.app/chat)** - Interactive interface
+- **[Resources](https://app-5c655e46.base44.app/resources)** - Educational materials
+
+[View detailed navigation guide →](docs/APP_STRUCTURE.md)
+
 ### 🎯 Core Capabilities
 
 - 🤖 **Multi-AI Tracking**: Monitor 10+ AI systems simultaneously
