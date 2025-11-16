@@ -16,44 +16,8 @@ copyright: Copyright &copy; 2025 Samir Baladi | CC BY 4.0 License
 
 # Configuration
 theme:
-  name: material
+  name: readthedocs
   language: en
-  
-  # Color scheme
-  palette:
-    # Light mode
-    - scheme: default
-      primary: indigo
-      accent: deep purple
-      toggle:
-        icon: material/brightness-7
-        name: Switch to dark mode
-    
-    # Dark mode
-    - scheme: slate
-      primary: indigo
-      accent: deep purple
-      toggle:
-        icon: material/brightness-4
-        name: Switch to light mode
-  
-  # Font
-  font:
-    text: Roboto
-    code: Roboto Mono
-  
-  # Features
-  features:
-    - navigation.instant
-    - navigation.tracking
-    - navigation.tabs
-    - navigation.sections
-    - navigation.expand
-    - navigation.top
-    - search.suggest
-    - search.highlight
-    - toc.integrate
-    - content.code.copy
 
 # Extensions
 markdown_extensions:
@@ -63,7 +27,6 @@ markdown_extensions:
   - tables
   - fenced_code
   - admonition
-  - pymdownx.superfences
 
 # Plugins
 plugins:
@@ -75,10 +38,8 @@ nav:
   - User Guide: guide.md
   - Philosophy: philosophy.md
 
-# Extra
-extra:
-  social:
-    - icon: fontawesome/brands/github
-      link: https://github.com/riteofrenaissance
-    - icon: fontawesome/brands/orcid
-      link: https://orcid.org/0009-0003-8903-0029
+# Extra CSS
+extra_css: []
+
+# Extra JavaScript
+extra_javascript: []
