@@ -1,0 +1,17 @@
+site_name: ECF Compass
+site_description: الأداة التفاعلية لتوجيه التطور الأخلاقي
+site_author: Samir Baladi
+
+theme:
+  name: readthedocs
+  locale: ar
+
+nav:
+  - الصفحة الرئيسية: index.md
+  - الدليل: guide.md
+  - الفلسفة: philosophy.md
+
+markdown_extensions:
+  - toc:
+      permalink: true
+  - markdown.extensions.codehilite
