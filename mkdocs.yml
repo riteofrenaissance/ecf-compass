@@ -61,9 +61,6 @@ theme:
   icon:
     logo: material/compass
     repo: fontawesome/brands/github
-  
-  # Custom styling
-  custom_dir: docs/overrides
 
 # Extensions
 markdown_extensions:
@@ -133,87 +130,13 @@ extra:
       link: https://orcid.org/0009-0003-8903-0029
       name: ORCID Profile
   
-  # Analytics (optional - add if needed)
-  # analytics:
-  #   provider: google
-  #   property: G-XXXXXXXXXX
-  
   # Version
   version:
     provider: mike
     default: stable
-  
-  # Consent (GDPR compliance)
-  consent:
-    title: Cookie consent
-    description: >-
-      We use cookies to recognize your repeated visits and preferences, as well
-      as to measure the effectiveness of our documentation and whether users
-      find what they're searching for. With your consent, you're helping us to
-      make our documentation better.
 
 # Navigation
 nav:
   - Home: index.md
-  
-  - Getting Started:
-    - User Guide: guide.md
-    - Quick Start: quickstart.md
-    - FAQ: faq.md
-  
-  - Assessment:
-    - SOG Manual: sog-manual.md
-    - Take Assessment: assessment.md
-    - Understanding Results: results.md
-    - Intervention Protocols: interventions.md
-  
-  - Philosophical Foundation:
-    - Overview: philosophy.md
-    - Kantian Ethics: kant.md
-    - Hegelian Dialectics: hegel.md
-    - Contemporary Application: application.md
-  
-  - Research:
-    - Theoretical Framework: theory.md
-    - Validation Studies: validation.md
-    - Case Studies: cases.md
-    - Research Protocols: protocols.md
-  
-  - Technical Documentation:
-    - API Reference: api.md
-    - Assessment Algorithms: algorithms.md
-    - Data Privacy: privacy.md
-    - Integration Guide: integration.md
-  
-  - Related Projects:
-    - Cyber Constitution: cyber-constitution.md
-    - Evolutionary Core Framework: ecf-framework.md
-    - Safe Aperture Study: safe-aperture.md
-    - Matrix Analysis: matrix-analysis.md
-    - Research Portfolio: portfolio.md
-  
-  - Resources:
-    - Glossary: glossary.md
-    - References: references.md
-    - Contributing: contributing.md
-    - License: license.md
-  
-  - Community:
-    - Discussion Forum: https://github.com/riteofrenaissance/ecf-compass/discussions
-    - Report Issues: https://github.com/riteofrenaissance/ecf-compass/issues
-    - Contribute: https://github.com/riteofrenaissance/ecf-compass/blob/main/CONTRIBUTING.md
-
-# Extra CSS
-extra_css:
-  - stylesheets/extra.css
-
-# Extra JavaScript
-extra_javascript:
-  - javascripts/mathjax.js
-  - https://polyfill.io/v3/polyfill.min.js?features=es6
-  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
-
-# Watch (for local development)
-watch:
-  - docs
-  - mkdocs.yml
+  - User Guide: guide.md
+  - Philosophy: philosophy.md
