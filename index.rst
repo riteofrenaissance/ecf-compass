@@ -1,0 +1,1 @@
+echo "ECF Compass\n===========\n\n.. toctree::\n   :maxdepth: 2\n\n   docs/index\n" > index.rst
