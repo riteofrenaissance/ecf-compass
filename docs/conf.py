@@ -6,3 +6,4 @@ asdf global python 3.13.3
 python -mvirtualenv $READTHEDOCS_VIRTUALENV_PATH 
 python -m pip install --upgrade --no-cache-dir pip setuptools 
 python -m pip install --upgrade --no-cache-dir sphinx 
+python -m sphinx -T -b html -d _build/doctrees -D language=en . $READTHEDOCS_OUTPUT/html 
