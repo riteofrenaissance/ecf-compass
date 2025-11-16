@@ -16,127 +16,30 @@ copyright: Copyright &copy; 2025 Samir Baladi | CC BY 4.0 License
 
 # Configuration
 theme:
-  name: material
+  name: readthedocs
   language: en
-  
-  # Color scheme
-  palette:
-    # Light mode
-    - scheme: default
-      primary: indigo
-      accent: deep purple
-      toggle:
-        icon: material/brightness-7
-        name: Switch to dark mode
-    
-    # Dark mode
-    - scheme: slate
-      primary: indigo
-      accent: deep purple
-      toggle:
-        icon: material/brightness-4
-        name: Switch to light mode
-  
-  # Font
-  font:
-    text: Roboto
-    code: Roboto Mono
-  
-  # Features
-  features:
-    - navigation.instant      # Instant loading
-    - navigation.tracking     # URL tracking
-    - navigation.tabs         # Top-level tabs
-    - navigation.sections     # Collapsible sections
-    - navigation.expand       # Expand all sections
-    - navigation.top          # Back to top button
-    - search.suggest          # Search suggestions
-    - search.highlight        # Highlight search terms
-    - search.share            # Share search results
-    - toc.integrate           # Integrate table of contents
-    - content.code.copy       # Copy code button
-    - content.tabs.link       # Link tabs across pages
-  
-  # Logo and favicon
-  icon:
-    logo: material/compass
-    repo: fontawesome/brands/github
 
 # Extensions
 markdown_extensions:
-  # Python Markdown
-  - abbr
-  - admonition
-  - attr_list
-  - def_list
-  - footnotes
-  - md_in_html
-  - tables
   - toc:
       permalink: true
       toc_depth: 3
-  
-  # Python Markdown Extensions
-  - pymdownx.arithmatex:
-      generic: true
-  - pymdownx.betterem:
-      smart_enable: all
-  - pymdownx.caret
-  - pymdownx.details
-  - pymdownx.emoji:
-      emoji_index: !!python/name:material.extensions.emoji.twemoji
-      emoji_generator: !!python/name:material.extensions.emoji.to_svg
-  - pymdownx.highlight:
-      anchor_linenums: true
-      line_spans: __span
-      pygments_lang_class: true
-  - pymdownx.inlinehilite
-  - pymdownx.keys
-  - pymdownx.mark
-  - pymdownx.smartsymbols
-  - pymdownx.superfences:
-      custom_fences:
-        - name: mermaid
-          class: mermaid
-          format: !!python/name:pymdownx.superfences.fence_code_format
-  - pymdownx.tabbed:
-      alternate_style: true
-  - pymdownx.tasklist:
-      custom_checkbox: true
-  - pymdownx.tilde
+  - tables
+  - fenced_code
+  - admonition
 
 # Plugins
 plugins:
-  - search:
-      lang: en
-      separator: '[\s\-,:!=\[\]()"/]+|(?!\b)(?=[A-Z][a-z])|\.(?!\d)|&[lg]t;'
-  - minify:
-      minify_html: true
-  - git-revision-date-localized:
-      enable_creation_date: true
-      type: timeago
-
-# Extra
-extra:
-  # Social links
-  social:
-    - icon: fontawesome/brands/github
-      link: https://github.com/riteofrenaissance
-      name: GitHub Organization
-    - icon: fontawesome/solid/book
-      link: https://zenodo.org/communities/riteofrenaissance
-      name: Zenodo Repository
-    - icon: fontawesome/brands/orcid
-      link: https://orcid.org/0009-0003-8903-0029
-      name: ORCID Profile
-  
-  # Version
-  version:
-    provider: mike
-    default: stable
+  - search
 
 # Navigation
 nav:
   - Home: index.md
   - User Guide: guide.md
   - Philosophy: philosophy.md
+
+# Extra CSS
+extra_css: []
+
+# Extra JavaScript
+extra_javascript: []
