@@ -1,57 +1,17 @@
-# ECF Compass Documentation Configuration
-# ReadTheDocs / MkDocs Configuration File
-
+# mkdocs.yml
 site_name: ECF Compass
-site_description: Interactive Cognitive Sovereignty Assessment Tool - Evaluate and enhance your relationship with AI systems
+site_description: الأداة التفاعلية للتطور الأخلاقي
 site_author: Samir Baladi
-site_url: https://ecf-compass.readthedocs.io
 
-# Repository
-repo_name: riteofrenaissance/ecf-compass
-repo_url: https://github.com/riteofrenaissance/ecf-compass
-edit_uri: edit/main/docs/
-
-# Copyright
-copyright: Copyright &copy; 2025 Samir Baladi | CC BY 4.0 License
-
-# Configuration
 theme:
   name: readthedocs
-  locale: ar
-  
-  # Features
-  features:
-    - navigation.instant
-    - navigation.tracking
-    - search.suggest
-    - search.highlight
-    - toc.integrate
 
-# Extensions
-markdown_extensions:
-  - toc:
-      permalink: true
-      toc_depth: 3
-  - tables
-  - fenced_code
-  - codehilite
-  - admonition
-  - pymdownx.superfences
-
-# Plugins
-plugins:
-  - search
-
-# Navigation
 nav:
   - الصفحة الرئيسية: index.md
   - دليل الاستخدام: guide.md
   - الأساس الفلسفي: philosophy.md
 
-# Extra CSS
-extra_css:
-  - stylesheets/extra.css
-
-# Extra JavaScript
-extra_javascript:
-  - javascripts/extra.js
+markdown_extensions:
+  - toc:
+      permalink: true
+  - tables
