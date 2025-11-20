@@ -1,21 +1,17 @@
 # 🧭 ECF Compass
+**Interactive Cognitive Sovereignty Assessment Tool**
 
-### Interactive Cognitive Sovereignty Assessment Tool
-
-[![Documentation Status](https://readthedocs.org/projects/ecf-compass/badge/?version=latest)](https://ecf-compass.readthedocs.io/en/latest/?badge=latest)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![CC BY 4.0](https://img.shields.io/badge/Docs-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.PENDING.svg)](https://doi.org/10.5281/zenodo.PENDING)
+[![Documentation Status](https://readthedocs.org/projects/ecf-compass/badge/?version=latest)](https://ecf-compass.readthedocs.io/en/latest/?badge=latest) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.PENDING.svg)](https://doi.org/10.5281/zenodo.PENDING)
 
 ---
 
 ## 📖 Overview
 
-**ECF Compass** is an evidence-based assessment tool that helps individuals evaluate and enhance their **cognitive sovereignty** in AI interactions. Built on rigorous philosophical foundations (Kantian ethics and Hegelian dialectics) and validated through empirical research, it provides actionable insights for maintaining healthy, productive relationships with AI systems.
+ECF Compass is an evidence-based assessment tool that helps individuals evaluate and enhance their cognitive sovereignty in AI interactions. Built on rigorous philosophical foundations (Kantian ethics and Hegelian dialectics) and validated through empirical research, it provides actionable insights for maintaining healthy, productive relationships with AI systems.
 
 ### What is Cognitive Sovereignty?
 
-**Cognitive sovereignty** is the capacity to maintain autonomy, dignity, and self-determination while engaging with AI systems. It ensures that humans remain **ends-in-themselves** rather than mere means to technological optimization.
+Cognitive sovereignty is the capacity to maintain autonomy, dignity, and self-determination while engaging with AI systems. It ensures that humans remain ends-in-themselves rather than mere means to technological optimization.
 
 ---
 
@@ -51,7 +47,7 @@
 ## 🚀 Quick Start
 
 ### Try It Now
-**[Launch ECF Compass →](https://ecf-compass.readthedocs.io/assessment)**
+**[Launch ECF Compass →](https://app-5c655e46.base44.app/assessments)**
 
 ### Documentation
 **[Read Full Documentation →](https://ecf-compass.readthedocs.io)**
@@ -102,7 +98,7 @@ ECF Compass evaluates three interconnected dimensions:
 - **Goal**: Ensure AI serves genuine human flourishing
 - **Range**: 1-10 (higher is better)
 
-**Learn more**: [SOG Manual](https://ecf-compass.readthedocs.io/sog-manual)
+**Learn more**: [SOG Manual](https://ecf-compass.readthedocs.io/en/latest/sog-manual/)
 
 ---
 
@@ -120,61 +116,86 @@ ECF Compass is grounded in two complementary philosophical traditions:
 - **Aufhebung**: Canceling, preserving, and elevating
 - **Master-Slave Dialectic**: Recognition and self-consciousness
 
-**Synthesis**: The [Cyber Constitution](https://cyber-constitution.netlify.app/) framework
+**Synthesis**: The Cyber Constitution framework
 
-**Deep dive**: [Philosophy Guide](https://ecf-compass.readthedocs.io/philosophy)
+**Deep dive**: [Philosophy Guide](https://ecf-compass.readthedocs.io/en/latest/philosophy/)
+
+---
+
+## 🌿 Ethical Principles Integration
+
+ECF Compass incorporates foundational ethical principles that guide its assessment framework and interpretation guidelines. These principles ensure that cognitive sovereignty evaluation remains grounded in values of human dignity, autonomy, and flourishing.
+
+### Guiding Framework
+The assessment integrates **seven core ethical principles** derived from philosophical inquiry into human-AI relationships. These principles inform:
+
+- **Assessment Design**: How questions are formulated and dimensions are measured
+- **Result Interpretation**: How scores are contextualized and explained  
+- **Intervention Protocols**: How recommendations are tailored to individual needs
+- **System Evolution**: How the tool develops and improves over time
+
+### Ethical Advisory
+Ethical principles consultation provided by **[GaiaSentinel](https://www.gaiasentinel.earth)** - A philosophical framework for technology ethics and human flourishing.
+
+**Resources**:
+- 🌐 [GaiaSentinel Manifesto](https://www.gaiasentinel.earth/fr/principes/manifeste/) - Core philosophical principles
+- 💻 [GaiaSentinel Repository](https://github.com/CarolineJCaldwell/GaiaSentinel) - Open source framework
+
+> **Note**: The specific principles and their applications are being validated through ongoing research (POC Phase 1). Full documentation will be published upon completion of validation studies.
+
+**Consultation**: Caroline J. Caldwell - Ethical Framework Advisor
 
 ---
 
 ## 📊 Use Cases
 
 ### For Individuals
-- ✅ Assess your relationship with AI tools
-- ✅ Identify dependency patterns early
-- ✅ Develop healthier usage habits
-- ✅ Track progress over time
+✅ Assess your relationship with AI tools  
+✅ Identify dependency patterns early  
+✅ Develop healthier usage habits  
+✅ Track progress over time
 
 ### For Researchers
-- 🔬 Validated assessment instrument
-- 🔬 Open datasets for analysis
-- 🔬 Pre-registered protocols
-- 🔬 Replication-friendly methodology
+🔬 Validated assessment instrument  
+🔬 Open datasets for analysis  
+🔬 Pre-registered protocols  
+🔬 Replication-friendly methodology
 
 ### For Clinicians
-- 🏥 Screen for technology-related concerns
-- 🏥 Plan targeted interventions
-- 🏥 Monitor treatment progress
-- 🏥 Evidence-based protocols
+🏥 Screen for technology-related concerns  
+🏥 Plan targeted interventions  
+🏥 Monitor treatment progress  
+🏥 Evidence-based protocols
 
 ### For Organizations
-- 🏢 Evaluate employee wellbeing
-- 🏢 Implement ethical AI practices
-- 🏢 Measure training effectiveness
-- 🏢 Guide policy development
+🏢 Evaluate employee wellbeing  
+🏢 Implement ethical AI practices  
+🏢 Measure training effectiveness  
+🏢 Guide policy development
 
 ---
 
 ## 📚 Documentation
 
 ### Getting Started
-- **[User Guide](https://ecf-compass.readthedocs.io/guide)** - Complete usage instructions
-- **[Quick Start](https://ecf-compass.readthedocs.io/quickstart)** - Get started in 5 minutes
-- **[FAQ](https://ecf-compass.readthedocs.io/faq)** - Frequently asked questions
+- [User Guide](https://ecf-compass.readthedocs.io/en/latest/user-guide/) - Complete usage instructions
+- [Quick Start](https://ecf-compass.readthedocs.io/en/latest/quick-start/) - Get started in 5 minutes
+- [FAQ](https://ecf-compass.readthedocs.io/en/latest/faq/) - Frequently asked questions
 
 ### Assessment
-- **[SOG Manual](https://ecf-compass.readthedocs.io/sog-manual)** - Complete assessment protocol
-- **[Understanding Results](https://ecf-compass.readthedocs.io/results)** - Interpret your scores
-- **[Intervention Protocols](https://ecf-compass.readthedocs.io/interventions)** - Evidence-based strategies
+- [SOG Manual](https://ecf-compass.readthedocs.io/en/latest/sog-manual/) - Complete assessment protocol
+- [Understanding Results](https://ecf-compass.readthedocs.io/en/latest/results/) - Interpret your scores
+- [Intervention Protocols](https://ecf-compass.readthedocs.io/en/latest/interventions/) - Evidence-based strategies
 
 ### Research
-- **[Theoretical Framework](https://ecf-compass.readthedocs.io/theory)** - Academic foundations
-- **[Validation Studies](https://ecf-compass.readthedocs.io/validation)** - Empirical evidence
-- **[Case Studies](https://ecf-compass.readthedocs.io/cases)** - Real-world applications
+- [Theoretical Framework](https://ecf-compass.readthedocs.io/en/latest/theory/) - Academic foundations
+- [Validation Studies](https://ecf-compass.readthedocs.io/en/latest/validation/) - Empirical evidence
+- [Case Studies](https://ecf-compass.readthedocs.io/en/latest/cases/) - Real-world applications
 
 ### Technical
-- **[API Reference](https://ecf-compass.readthedocs.io/api)** - Integration documentation
-- **[Data Privacy](https://ecf-compass.readthedocs.io/privacy)** - Privacy policy
-- **[Contributing](https://ecf-compass.readthedocs.io/contributing)** - How to contribute
+- [API Reference](https://ecf-compass.readthedocs.io/en/latest/api/) - Integration documentation
+- [Data Privacy](https://ecf-compass.readthedocs.io/en/latest/privacy/) - Privacy policy
+- [Contributing](https://ecf-compass.readthedocs.io/en/latest/contributing/) - How to contribute
 
 ---
 
@@ -182,35 +203,44 @@ ECF Compass is grounded in two complementary philosophical traditions:
 
 ### Related Projects
 
-**[Cyber Constitution](https://cyber-constitution.netlify.app/)**  
+#### Cyber Constitution
 Constitutional framework for cognitive sovereignty in the digital age  
-*Status: Manuscript in preparation*
+**Status**: Manuscript in preparation
 
-**[Evolutionary Core Framework](https://zenodo.org/records/17480100)**  
+#### Evolutionary Core Framework
 Structural-anthropological methodology for AI sovereignty research  
-*DOI: 10.5281/ZENODO.17480100*
+**DOI**: [10.5281/ZENODO.17480100](https://doi.org/10.5281/ZENODO.17480100)
 
-**[Safe Aperture Study](https://riteofrenaissance.github.io/safe-aperture-study/)**  
+#### Safe Aperture Study
 Pre-registered RCT testing ambiguity tolerance interventions (N=30)  
-*DOI: 10.5281/zenodo.17396752*
+**DOI**: [10.5281/zenodo.17396752](https://doi.org/10.5281/zenodo.17396752)
 
-**[Matrix Analysis v1.0](https://zenodo.org/records/17172636)**  
+#### Matrix Analysis v1.0
 Architectural and emotional mapping of AI system design  
-*DOI: 10.5281/ZENODO.17172636*
+**DOI**: [10.5281/ZENODO.17172636](https://doi.org/10.5281/ZENODO.17172636)
 
-**[Quest for Inner Treasure](https://github.com/riteofrenaissance/ai-interaction-patterns)**  
+#### Quest for Inner Treasure
 Study of AI-mediated self-discovery patterns  
-*Status: Ongoing*
+**Status**: Ongoing
 
-**[ECF Dashboard](https://github.com/riteofrenaissance/ecf-dashboard)**  
+#### ECF Dashboard
 Real-time dashboard for cognitive sovereignty metrics  
-*Status: Beta*
+**Status**: Beta
+
+#### GaiaSentinel
+Philosophical framework for technology ethics and human flourishing  
+- **Website**: https://www.gaiasentinel.earth
+- **Manifesto**: https://www.gaiasentinel.earth/fr/principes/manifeste/
+- **Repository**: https://github.com/CarolineJCaldwell/GaiaSentinel  
+**Status**: Ethical consultation (POC Phase 1)
 
 ### Academic Profiles
-- **[ORCID](https://orcid.org/0009-0003-8903-0029)** - Samir Baladi's research profile
-- **[Zenodo Community](https://zenodo.org/communities/riteofrenaissance)** - Open research repository
+- [ORCID](https://orcid.org/0009-0003-9825-3770) - Samir Baladi's research profile
+- [Zenodo Community](https://zenodo.org/communities/rite-of-renaissance/) - Open research repository
 
-### Citation
+---
+
+## Citation
 
 If you use ECF Compass in your research, please cite:
 
@@ -229,12 +259,12 @@ If you use ECF Compass in your research, please cite:
 
 ## 🤝 Contributing
 
-We welcome contributions from the community! ECF Compass is built on principles of **open science** and **collaborative development**.
+We welcome contributions from the community! ECF Compass is built on principles of open science and collaborative development.
 
 ### How to Contribute
 
 #### 🐛 Report Bugs
-Found a bug? [Open an issue](https://github.com/riteofrenaissance/ecf-compass/issues/new?template=bug_report.md)
+Found a bug? [Open an issue](https://github.com/riteofrenaissance/ecf-compass/issues)
 
 #### 💡 Suggest Features
 Have an idea? [Submit a feature request](https://github.com/riteofrenaissance/ecf-compass/issues/new?template=feature_request.md)
@@ -301,13 +331,13 @@ Independent Researcher
 Rite of Renaissance Research Foundation
 
 ### Organization
-**[Rite of Renaissance](https://github.com/riteofrenaissance)**  
+**Rite of Renaissance**  
 Research initiative exploring cognitive sovereignty in human-AI interaction
 
 ### Contact
 - **Issues & Support**: [GitHub Issues](https://github.com/riteofrenaissance/ecf-compass/issues)
 - **Discussions**: [GitHub Discussions](https://github.com/riteofrenaissance/ecf-compass/discussions)
-- **Research Inquiries**: See [ORCID profile](https://orcid.org/0009-0003-8903-0029) for contact information
+- **Research Inquiries**: See [ORCID profile](https://orcid.org/0009-0003-9825-3770) for contact information
 
 ---
 
@@ -318,39 +348,40 @@ This work builds upon centuries of philosophical inquiry into human autonomy, di
 - **Immanuel Kant** - Categorical imperative and autonomy
 - **G.W.F. Hegel** - Dialectical method and synthesis
 - **Contemporary researchers** in self-determination theory, behavioral psychology, and AI ethics
+- **Caroline J. Caldwell** - Ethical framework consultation (GaiaSentinel)
 
-ECF Compass exists because we believe that **human flourishing must remain central** as AI becomes increasingly integrated into our lives.
+ECF Compass exists because we believe that human flourishing must remain central as AI becomes increasingly integrated into our lives.
 
 ---
 
 ## 📊 Project Status
 
-- **Version**: 1.0.0
-- **Status**: Active Development
-- **Last Updated**: November 2025
-- **Stability**: Beta (validated, undergoing continuous improvement)
+**Version**: 1.0.0  
+**Status**: Active Development  
+**Last Updated**: November 2025  
+**Stability**: Beta (validated, undergoing continuous improvement)
 
 ### Roadmap
 
-**Q4 2025**
+#### Q4 2025
 - ✅ Initial release
 - ✅ Core assessment functionality
 - ✅ Documentation (ReadTheDocs)
 - ⏳ Community building
 
-**Q1 2026**
+#### Q1 2026
 - 🔮 Mobile app (iOS & Android)
 - 🔮 Advanced analytics dashboard
 - 🔮 Multilingual support (10+ languages)
 - 🔮 API v2.0
 
-**Q2 2026**
+#### Q2 2026
 - 🔮 Clinical practice guidelines
 - 🔮 Integration with wellness platforms
 - 🔮 AI-powered personalized coaching
 - 🔮 Organizational assessment tools
 
-**Long-term Vision**
+#### Long-term Vision
 - 🔮 Global standard for cognitive sovereignty assessment
 - 🔮 Integration into educational curricula
 - 🔮 Policy recommendations for ethical AI governance
@@ -362,9 +393,9 @@ ECF Compass exists because we believe that **human flourishing must remain centr
 ## 💬 Community
 
 ### Get Involved
-- 💬 **[Join Discussions](https://github.com/riteofrenaissance/ecf-compass/discussions)** - Share experiences, ask questions
-- 🐛 **[Report Issues](https://github.com/riteofrenaissance/ecf-compass/issues)** - Help improve the tool
-- 🌟 **[Star the Repository](https://github.com/riteofrenaissance/ecf-compass)** - Show your support
+- 💬 [Join Discussions](https://github.com/riteofrenaissance/ecf-compass/discussions) - Share experiences, ask questions
+- 🐛 [Report Issues](https://github.com/riteofrenaissance/ecf-compass/issues) - Help improve the tool
+- 🌟 [Star the Repository](https://github.com/riteofrenaissance/ecf-compass) - Show your support
 - 📢 **Spread the Word** - Share with others who might benefit
 
 ### Code of Conduct
@@ -375,31 +406,32 @@ We are committed to providing a welcoming and inclusive environment for all cont
 ## 🔗 Links
 
 ### Project
-- **[Documentation](https://ecf-compass.readthedocs.io)** - Complete user and technical docs
-- **[Live Tool](https://ecf-compass.readthedocs.io/assessment)** - Try ECF Compass now
-- **[GitHub](https://github.com/riteofrenaissance/ecf-compass)** - Source code and issues
+- [Documentation](https://ecf-compass.readthedocs.io) - Complete user and technical docs
+- [Live Tool](https://app-5c655e46.base44.app/assessments) - Try ECF Compass now
+- [GitHub](https://github.com/riteofrenaissance/ecf-compass) - Source code and issues
 
 ### Research
-- **[Cyber Constitution](https://cyber-constitution.netlify.app/)** - Philosophical framework
-- **[Zenodo Community](https://zenodo.org/communities/riteofrenaissance)** - Published research
-- **[ORCID Profile](https://orcid.org/0009-0003-8903-0029)** - All publications
+- [Cyber Constitution](https://github.com/riteofrenaissance/cyber-constitution) - Philosophical framework
+- [Zenodo Community](https://zenodo.org/communities/rite-of-renaissance/) - Published research
+- [ORCID Profile](https://orcid.org/0009-0003-9825-3770) - All publications
+
+### Partners & Advisors
+- [GaiaSentinel](https://www.gaiasentinel.earth) - Ethical framework consultation
+- [Manifesto](https://www.gaiasentinel.earth/fr/principes/manifeste/) - Core principles
+- [Repository](https://github.com/CarolineJCaldwell/GaiaSentinel) - Open source framework
 
 ### Community
-- **[GitHub Discussions](https://github.com/riteofrenaissance/ecf-compass/discussions)** - Q&A and community
-- **[Contributing Guide](CONTRIBUTING.md)** - How to help
-- **[Changelog](CHANGELOG.md)** - Version history
+- [GitHub Discussions](https://github.com/riteofrenaissance/ecf-compass/discussions) - Q&A and community
+- [Contributing Guide](CONTRIBUTING.md) - How to help
+- [Changelog](CHANGELOG.md) - Version history
 
 ---
 
-<div align="center">
+## 🧭 Navigate Your Cognitive Sovereignty 🧭
 
-**🧭 Navigate Your Cognitive Sovereignty 🧭**
+Maintained with ❤️ by the Rite of Renaissance Research Foundation
 
-*Maintained with ❤️ by the Rite of Renaissance Research Foundation*
-
-[Get Started](https://ecf-compass.readthedocs.io) | [Documentation](https://ecf-compass.readthedocs.io/guide) | [Research](https://zenodo.org/communities/riteofrenaissance)
-
-</div>
+**[Get Started](https://app-5c655e46.base44.app/assessments)** | **[Documentation](https://ecf-compass.readthedocs.io)** | **[Research](https://zenodo.org/communities/rite-of-renaissance/)**
 
 ---
 
