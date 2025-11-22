@@ -189,6 +189,15 @@ Ethical principles consultation provided by **[GaiaSentinel](https://www.gaiasen
 
 ---
 
+## 🤝 Contributing
+
+We welcome contributions! Please see:
+- [Contributing Guidelines](CONTRIBUTING.md)
+- [Code of Conduct](CODE_OF_CONDUCT.md)
+
+
+---
+
 ### Assessment
 - [SOG Manual](https://ecf-compass.readthedocs.io/en/latest/sog-manual/) - Complete assessment protocol
 - [Understanding Results](https://ecf-compass.readthedocs.io/en/latest/results/) - Interpret your scores
