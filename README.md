@@ -327,7 +327,7 @@ The SOG assessment scales and protocols are freely available for:
 
 ### Author
 **Samir Baladi**  
-Independent Researcher  
+Founder & Official Representative of ECF Compass  
 Rite of Renaissance Research Foundation
 
 ### Organization
