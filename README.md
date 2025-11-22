@@ -184,6 +184,7 @@ Ethical principles consultation provided by **[GaiaSentinel](https://www.gaiasen
 - [Quick Reference](docs/QUICK_REFERENCE.md) - Get started quickly
 - [Full Documentation](docs/PROJECT_DOCUMENTATION.html) - Complete guide
 - [Architecture](docs/ARCHITECTURE.md) - Technical design
+- [Quick Reference](docs/QUICK_REFERENCE.md) - Get started quickly
 - [Deployment](docs/DEPLOYMENT.md) - Hosting instructions
 
 ---
