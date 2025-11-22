@@ -181,6 +181,12 @@ Ethical principles consultation provided by **[GaiaSentinel](https://www.gaiasen
 - [User Guide](https://ecf-compass.readthedocs.io/en/latest/user-guide/) - Complete usage instructions
 - [Quick Start](https://ecf-compass.readthedocs.io/en/latest/quick-start/) - Get started in 5 minutes
 - [FAQ](https://ecf-compass.readthedocs.io/en/latest/faq/) - Frequently asked questions
+- [Quick Reference](docs/QUICK_REFERENCE.md) - Get started quickly
+- [Full Documentation](docs/PROJECT_DOCUMENTATION.html) - Complete guide
+- [Architecture](docs/ARCHITECTURE.md) - Technical design
+- [Deployment](docs/DEPLOYMENT.md) - Hosting instructions
+
+---
 
 ### Assessment
 - [SOG Manual](https://ecf-compass.readthedocs.io/en/latest/sog-manual/) - Complete assessment protocol
